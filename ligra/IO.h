@@ -182,10 +182,12 @@ graph<vertex> readGraphFromFile(char* fname, bool isSymmetric, bool mmap) {
   }
 #ifndef WEIGHTED
   if (W.Strings[0] != (string) "AdjacencyGraph") {
+	  puts("un.");
 #else
   if (W.Strings[0] != (string) "WeightedAdjacencyGraph") {
+	  puts("weighted.");
 #endif
-    cout << "Bad input file" << endl;
+    cout << "IO.h:188 Bad input file" << endl;
     abort();
   }
 
@@ -197,7 +199,7 @@ graph<vertex> readGraphFromFile(char* fname, bool isSymmetric, bool mmap) {
 #else
   if (len != n + 2*m + 2) {
 #endif
-    cout << "Bad input file" << endl;
+    cout << "IO.h:200: Bad input file" << endl;
     abort();
   }
 

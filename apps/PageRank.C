@@ -68,7 +68,9 @@ struct PR_Vertex_Reset {
 
 template <class vertex>
 void Compute(graph<vertex>& GA, commandLine P) {
-  long maxIters = P.getOptionLongValue("-maxiters",100);
+	// By Johnpzh
+  long maxIters = P.getOptionLongValue("-maxiters",1);
+  // End by Johnpzh
   const intE n = GA.n;
   const double damping = 0.85, epsilon = 0.0000001;
   
@@ -80,6 +82,9 @@ void Compute(graph<vertex>& GA, commandLine P) {
   bool* frontier = newA(bool,n);
   {parallel_for(long i=0;i<n;i++) frontier[i] = 1;}
 
+  // By Johnpzh
+  startTime();
+  // End by Johnpzh
   vertexSubset Frontier(n,n,frontier);
   
   long iter = 0;
@@ -96,5 +101,14 @@ void Compute(graph<vertex>& GA, commandLine P) {
     vertexMap(Frontier,PR_Vertex_Reset(p_curr));
     swap(p_curr,p_next);
   }
+  // By Johnpzh
+  nextTime("");
+  FILE *fout = fopen("results.txt", "w");
+  for(long i = 0; i < n; i += n/10) {
+	  //fprintf(fout, "dists[%ld]: %ld\n", i, dists[i]);
+	  fprintf(fout, "%d) cost:%ld\n", i, p_curr[i]);
+  }
+  fclose(fout);
+  // End by Johnpzh
   Frontier.del(); free(p_curr); free(p_next); 
 }

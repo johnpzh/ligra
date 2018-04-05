@@ -1,0 +1,1650 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	bucketing/dyn_arr.h	/^  E* A;$/;"	m	struct:dyn_arr
+A	transpose.h	/^  E *A, *B;$/;"	m	struct:blockTrans
+A	transpose.h	/^  E *A, *B;$/;"	m	struct:transpose
+A	utils.h	/^    ET* A;$/;"	m	struct:sequence::getA
+A	utils.h	/^    IT* A;$/;"	m	struct:sequence::getAF
+A	utils.h	/^    bool* A;$/;"	m	struct:sequence::boolGetA
+A	utils.h	/^  T* A;$/;"	m	struct:_seq
+ACL_F	localAlg/ACL-Sync-Local-Opt.C	/^  ACL_F(sparseAdditiveSet<float> &_p, sparseAdditiveSet<float> &_r, sparseAdditiveSet<float> &_new_r, vertex* _V, double _alpha) : $/;"	f	struct:ACL_F
+ACL_F	localAlg/ACL-Sync-Local-Opt.C	/^struct ACL_F {$/;"	s	file:
+ACL_F	localAlg/ACL-Sync-Local.C	/^  ACL_F(sparseAdditiveSet<float> &_p, sparseAdditiveSet<float> &_r, sparseAdditiveSet<float> &_new_r, vertex* _V, double _oneMinusAlphaOverTwo) : $/;"	f	struct:ACL_F
+ACL_F	localAlg/ACL-Sync-Local.C	/^struct ACL_F {$/;"	s	file:
+ACLpair	localAlg/ACL-Sync-Local-Opt.C	/^typedef pair<uintE,float> ACLpair;$/;"	t	file:
+ACLpair	localAlg/ACL-Sync-Local.C	/^typedef pair<uintE,float> ACLpair;$/;"	t	file:
+ACLpair	localAlg/HeatKernel-Parallel.C	/^typedef pair<uintE,float> ACLpair;$/;"	t	file:
+ACLpair	localAlg/HeatKernel-Randomized-Parallel.C	/^typedef pair<uintE,double> ACLpair;$/;"	t	file:
+ACLpair	localAlg/Nibble-Parallel.C	/^typedef pair<uintE,float> ACLpair;$/;"	t	file:
+ALL	Makefile	/^ALL= encoder decoder BFS BC BellmanFord Components Radii PageRank PageRankDelta BFSCC BFS-Bitvector KCore MIS Triangle CF$/;"	m
+ALL	bucketing/Makefile	/^ALL= DeltaStepping KCore KCoreSerial SetCover$/;"	m
+ALL	eccentricity/Makefile	/^ALL= kBFS-1Phase-Ecc kBFS-Ecc FM-Ecc LogLog-Ecc kBFS-Exact RV CLRSTV TK Simple-Approx-Ecc$/;"	m
+AVG_SEG_SIZE	localAlg/sampleSort.h	53;"	d
+A_QSORT_INCLUDED	quickSort.h	24;"	d
+A_RADIX_INCLUDED	blockRadixSort.h	24;"	d
+A_TRANSPOSE_INCLUDED	transpose.h	24;"	d
+B	transpose.h	/^  E *A, *B;$/;"	m	struct:blockTrans
+B	transpose.h	/^  E *A, *B;$/;"	m	struct:transpose
+BC_Back_F	BC.C	/^  BC_Back_F(fType* _Dependencies, bool* _Visited) : $/;"	f	struct:BC_Back_F
+BC_Back_F	BC.C	/^struct BC_Back_F {$/;"	s	file:
+BC_Back_Vertex_F	BC.C	/^  BC_Back_Vertex_F(bool* _Visited, fType* _Dependencies, fType* _inverseNumPaths) : $/;"	f	struct:BC_Back_Vertex_F
+BC_Back_Vertex_F	BC.C	/^struct BC_Back_Vertex_F {$/;"	s	file:
+BC_F	BC.C	/^  BC_F(fType* _NumPaths, bool* _Visited) : $/;"	f	struct:BC_F
+BC_F	BC.C	/^struct BC_F {$/;"	s	file:
+BC_Vertex_F	BC.C	/^  BC_Vertex_F(bool* _Visited) : Visited(_Visited) {}$/;"	f	struct:BC_Vertex_F
+BC_Vertex_F	BC.C	/^struct BC_Vertex_F {$/;"	s	file:
+BFS_F	BFS-Bitvector.C	/^  BFS_F(uintE* _Parents, long* _Visited) $/;"	f	struct:BFS_F
+BFS_F	BFS-Bitvector.C	/^struct BFS_F {$/;"	s	file:
+BFS_F	BFS.C	/^	BFS_F(uintE* _Parents) : Parents(_Parents) {}$/;"	f	struct:BFS_F
+BFS_F	BFS.C	/^struct BFS_F {$/;"	s	file:
+BFS_F	BFSCC.C	/^  BFS_F(uintE* _Parents, uintE _label) : Parents(_Parents), label(_label) {}$/;"	f	struct:BFS_F
+BFS_F	BFSCC.C	/^struct BFS_F {$/;"	s	file:
+BFS_F	eccentricity/CLRSTV.C	/^  BFS_F(uintE* _Dist, uintE _round) : Dist(_Dist), round(_round) {}$/;"	f	struct:BFS_F
+BFS_F	eccentricity/CLRSTV.C	/^struct BFS_F {$/;"	s	file:
+BFS_F	eccentricity/RV.C	/^  BFS_F(uintE* _Dist, uintE _round) : Dist(_Dist), round(_round) {}$/;"	f	struct:BFS_F
+BFS_F	eccentricity/RV.C	/^struct BFS_F {$/;"	s	file:
+BFS_F	eccentricity/Simple-Approx-Ecc.C	/^  BFS_F(uintE* _Dist, uintE _round) : Dist(_Dist), round(_round) {}$/;"	f	struct:BFS_F
+BFS_F	eccentricity/Simple-Approx-Ecc.C	/^struct BFS_F {$/;"	s	file:
+BFS_F	eccentricity/TK.C	/^  BFS_F(uintE* _Dist, uintE _round) : Dist(_Dist), round(_round) {}$/;"	f	struct:BFS_F
+BFS_F	eccentricity/TK.C	/^struct BFS_F {$/;"	s	file:
+BFS_Pair_F	eccentricity/RV.C	/^  BFS_Pair_F(intPair* _Dist, uintE _round) : Dist(_Dist), round(_round) {}$/;"	f	struct:BFS_Pair_F
+BFS_Pair_F	eccentricity/RV.C	/^struct BFS_Pair_F {$/;"	s	file:
+BF_F	BellmanFord.C	/^  BF_F(intE* _ShortestPathLen, int* _Visited) : $/;"	f	struct:BF_F
+BF_F	BellmanFord.C	/^struct BF_F {$/;"	s	file:
+BF_Vertex_F	BellmanFord.C	/^  BF_Vertex_F(int* _Visited) : Visited(_Visited) {}$/;"	f	struct:BF_Vertex_F
+BF_Vertex_F	BellmanFord.C	/^struct BF_Vertex_F {$/;"	s	file:
+BUCKETS	blockRadixSort.h	49;"	d
+BYTECODE_H	byte-pd.h	25;"	d
+BYTECODE_H	byte.h	25;"	d
+BYTECODE_H	byteRLE-pd.h	25;"	d
+BYTECODE_H	byteRLE.h	25;"	d
+BYTECODE_H	nibble-pd.h	25;"	d
+BYTECODE_H	nibble.h	25;"	d
+CACHE_LINE_S	bucketing/bucket.h	11;"	d
+CAS	utils.h	/^inline bool CAS(ET *ptr, ET oldv, ET newv) {$/;"	f
+CAS_GCC	utils.h	/^  inline bool CAS_GCC(ET *ptr, ET oldv, ET newv) {$/;"	f	namespace:pbbs
+CCBFS	eccentricity/CCBFS.h	/^uintE CCBFS(intE start, graph<vertex> GA, intE* Labels) {$/;"	f
+CCBFS_F	eccentricity/CCBFS.h	/^CCBFS_F(intE _label, intE* _Labels) : label(_label), Labels(_Labels) {}$/;"	f	struct:CCBFS_F
+CCBFS_F	eccentricity/CCBFS.h	/^struct CCBFS_F {$/;"	s
+CC_F	Components.C	/^  CC_F(uintE* _IDs, uintE* _prevIDs) : $/;"	f	struct:CC_F
+CC_F	Components.C	/^struct CC_F {$/;"	s	file:
+CC_F	eccentricity/CCBFS.h	/^  CC_F(intE* _IDs, intE* _prevIDs) : $/;"	f	struct:CC_F
+CC_F	eccentricity/CCBFS.h	/^struct CC_F {$/;"	s
+CC_Vertex_F	Components.C	/^  CC_Vertex_F(uintE* _IDs, uintE* _prevIDs) :$/;"	f	struct:CC_Vertex_F
+CC_Vertex_F	Components.C	/^struct CC_Vertex_F {$/;"	s	file:
+CC_Vertex_F	eccentricity/CCBFS.h	/^CC_Vertex_F(intE* _IDs, intE* _prevIDs) :$/;"	f	struct:CC_Vertex_F
+CC_Vertex_F	eccentricity/CCBFS.h	/^struct CC_Vertex_F {$/;"	s
+CF_Edge_F	CF.C	/^  CF_Edge_F(vertex* _V, double* _latent_curr, double* _error, int _K) : $/;"	f	struct:CF_Edge_F
+CF_Edge_F	CF.C	/^struct CF_Edge_F {$/;"	s	file:
+CF_Vertex_F	CF.C	/^  CF_Vertex_F(double _step, double _lambda, double* _latent_curr, double* _error, int _K) :$/;"	f	struct:CF_Vertex_F
+CF_Vertex_F	CF.C	/^struct CF_Vertex_F {$/;"	s	file:
+CODE	Makefile	/^CODE = -DBYTE$/;"	m
+CODE	Makefile	/^CODE = -DBYTERLE$/;"	m
+CODE	Makefile	/^CODE = -DNIBBLE$/;"	m
+CODE	bucketing/Makefile	/^CODE = -DBYTE$/;"	m
+CODE	bucketing/Makefile	/^CODE = -DBYTERLE$/;"	m
+CODE	bucketing/Makefile	/^CODE = -DNIBBLE$/;"	m
+COMMON	Makefile	/^COMMON= ligra.h graph.h compressedVertex.h vertex.h utils.h IO.h parallel.h gettime.h index_map.h maybe.h sequence.h edgeMap_utils.h binary_search.h quickSort.h blockRadixSort.h transpose.h parseCommandLine.h byte.h byteRLE.h nibble.h byte-pd.h byteRLE-pd.h nibble-pd.h vertexSubset.h encoder.C decoder.C$/;"	m
+COMMON	bucketing/Makefile	/^COMMON= ligra.h edgeMap_utils.h index_map.h sequence.h maybe.h binary_search.h graph.h compressedVertex.h vertex.h utils.h IO.h parallel.h gettime.h quickSort.h blockRadixSort.h transpose.h parseCommandLine.h byte.h byteRLE.h nibble.h byte-pd.h byteRLE-pd.h nibble-pd.h vertexSubset.h encoder.C$/;"	m
+COMMON	eccentricity/Makefile	/^COMMON= ligra.h graph.h compressedVertex.h vertex.h utils.h IO.h parallel.h gettime.h index_map.h maybe.h sequence.h edgeMap_utils.h binary_search.h quickSort.h parseCommandLine.h byte.h byteRLE.h nibble.h byte-pd.h byteRLE-pd.h nibble-pd.h vertexSubset.h encoder.C$/;"	m
+COMMON	localAlg/Makefile	/^COMMON= ligra.h graph.h compressedVertex.h vertex.h utils.h IO.h parallel.h gettime.h index_map.h maybe.h sequence.h edgeMap_utils.h binary_search.h quickSort.h parseCommandLine.h byte.h byteRLE.h nibble.h byte-pd.h byteRLE-pd.h nibble-pd.h vertexSubset.h encoder.C$/;"	m
+COMPRESSED_VERTEX_H	compressedVertex.h	2;"	d
+CONDITIONALLY_IN	MIS.C	/^enum {UNDECIDED,CONDITIONALLY_IN,OUT,IN};$/;"	e	enum:__anon1	file:
+COVERED	bucketing/SetCover.C	/^constexpr uintE COVERED = ((uintE)INT_E_MAX) - 1;$/;"	v
+Chars	IO.h	/^  char* Chars;  \/\/ array storing all strings$/;"	m	struct:words
+Components	eccentricity/CCBFS.h	/^void Components(graph<vertex> GA, intE* IDs) {$/;"	f
+Compressed_Mem	graph.h	/^  Compressed_Mem(vertex* _V, char* _s) :$/;"	f	struct:Compressed_Mem
+Compressed_Mem	graph.h	/^struct Compressed_Mem : public Deletable {$/;"	s
+Compute	BC.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	BFS-Bitvector.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	BFS.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	BFSCC.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	BellmanFord.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	CF.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	Components.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	KCore.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	MIS.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	PageRank.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	PageRankDelta.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	Radii.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	Triangle.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	bucketing/DeltaStepping.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	bucketing/KCore.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	bucketing/KCoreSerial.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	bucketing/SetCover.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/CLRSTV.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/FM-Ecc.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/LogLog-Ecc.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/RV.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/Simple-Approx-Ecc.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/TK.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/kBFS-1Phase-Ecc.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/kBFS-Ecc.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	eccentricity/kBFS-Exact.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/ACL-Serial-Naive.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/ACL-Serial-Opt-Naive.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/ACL-Serial-Opt.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/ACL-Serial.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/ACL-Sync-Local-Opt.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/ACL-Sync-Local.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/HeatKernel-Parallel.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/HeatKernel-Randomized-Parallel.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/HeatKernel-Randomized-Serial.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/HeatKernel-Serial.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/Nibble-Parallel.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+Compute	localAlg/Nibble-Serial.C	/^void Compute(graph<vertex>& GA, commandLine P) {$/;"	f
+D	graph.h	/^  Deletable *D;$/;"	m	struct:graph
+Deg_AtLeast_K	KCore.C	/^  Deg_AtLeast_K(vertex* _V, intE* _Degrees, uintE _k) : $/;"	f	struct:Deg_AtLeast_K
+Deg_AtLeast_K	KCore.C	/^struct Deg_AtLeast_K {$/;"	s	file:
+Deg_LessThan_K	KCore.C	/^  Deg_LessThan_K(vertex* _V, intE* _Degrees, uintE* _coreNumbers, uintE _k) : $/;"	f	struct:Deg_LessThan_K
+Deg_LessThan_K	KCore.C	/^struct Deg_LessThan_K {$/;"	s	file:
+Degrees	KCore.C	/^  intE *Degrees;$/;"	m	struct:Deg_AtLeast_K	file:
+Degrees	KCore.C	/^  intE* Degrees;$/;"	m	struct:Deg_LessThan_K	file:
+Degrees	KCore.C	/^  intE* Degrees;$/;"	m	struct:Update_Deg	file:
+Deletable	graph.h	/^struct Deletable {$/;"	s
+Delta	PageRankDelta.C	/^  double* Delta, *nghSum;$/;"	m	struct:PR_F	file:
+Delta	PageRankDelta.C	/^  double* p, *Delta, *nghSum;$/;"	m	struct:PR_Vertex_F	file:
+Delta	PageRankDelta.C	/^  double* p, *Delta, *nghSum;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+DeltaStepping	bucketing/DeltaStepping.C	/^void DeltaStepping(graph<vertex>& G, uintE src, uintE delta, size_t num_buckets=128) {$/;"	f
+Dependencies	BC.C	/^  fType* Dependencies, *inverseNumPaths;$/;"	m	struct:BC_Back_Vertex_F	file:
+Dependencies	BC.C	/^  fType* Dependencies;$/;"	m	struct:BC_Back_F	file:
+Dist	eccentricity/CLRSTV.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+Dist	eccentricity/RV.C	/^  intPair* Dist; uintE round;$/;"	m	struct:BFS_Pair_F	file:
+Dist	eccentricity/RV.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+Dist	eccentricity/Simple-Approx-Ecc.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+Dist	eccentricity/TK.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+EDGE_SIZE_PER_BYTE	byte-pd.h	39;"	d
+EDGE_SIZE_PER_BYTE	byte.h	37;"	d
+EDGE_SIZE_PER_BYTE	byteRLE-pd.h	37;"	d
+EDGE_SIZE_PER_BYTE	byteRLE.h	39;"	d
+EDGE_SIZE_PER_BYTE	nibble-pd.h	41;"	d
+EDGE_SIZE_PER_BYTE	nibble.h	39;"	d
+Ecc_F	eccentricity/FM-Ecc.C	/^  Ecc_F(long _length, intE* _Visited, intE* _NextVisited, $/;"	f	struct:Ecc_F
+Ecc_F	eccentricity/FM-Ecc.C	/^struct Ecc_F {$/;"	s	file:
+Ecc_F	eccentricity/LogLog-Ecc.C	/^  Ecc_F(long _length, long* _Visited, long* _NextVisited, $/;"	f	struct:Ecc_F
+Ecc_F	eccentricity/LogLog-Ecc.C	/^struct Ecc_F {$/;"	s	file:
+Ecc_F	eccentricity/kBFS-1Phase-Ecc.C	/^  Ecc_F(const long _length, long* _Visited, long* _NextVisited, $/;"	f	struct:Ecc_F
+Ecc_F	eccentricity/kBFS-1Phase-Ecc.C	/^struct Ecc_F {$/;"	s	file:
+Ecc_F	eccentricity/kBFS-Ecc.C	/^  Ecc_F(const long _length, long* _Visited, long* _NextVisited, $/;"	f	struct:Ecc_F
+Ecc_F	eccentricity/kBFS-Ecc.C	/^struct Ecc_F {$/;"	s	file:
+Ecc_F	eccentricity/kBFS-Exact.C	/^  Ecc_F(long _length, long* _Visited, long* _NextVisited, $/;"	f	struct:Ecc_F
+Ecc_F	eccentricity/kBFS-Exact.C	/^struct Ecc_F {$/;"	s	file:
+Ecc_Vertex_F	eccentricity/FM-Ecc.C	/^  Ecc_Vertex_F(long _length, intE* _Visited, intE* _NextVisited) :$/;"	f	struct:Ecc_Vertex_F
+Ecc_Vertex_F	eccentricity/FM-Ecc.C	/^struct Ecc_Vertex_F {$/;"	s	file:
+Ecc_Vertex_F	eccentricity/LogLog-Ecc.C	/^  Ecc_Vertex_F(long _length, long* _Visited, long* _NextVisited) :$/;"	f	struct:Ecc_Vertex_F
+Ecc_Vertex_F	eccentricity/LogLog-Ecc.C	/^struct Ecc_Vertex_F {$/;"	s	file:
+Ecc_Vertex_F	eccentricity/kBFS-1Phase-Ecc.C	/^  Ecc_Vertex_F(const long _length, long* _Visited, long* _NextVisited) :$/;"	f	struct:Ecc_Vertex_F
+Ecc_Vertex_F	eccentricity/kBFS-1Phase-Ecc.C	/^struct Ecc_Vertex_F {$/;"	s	file:
+Ecc_Vertex_F	eccentricity/kBFS-Ecc.C	/^  Ecc_Vertex_F(const long _length, long* _Visited, long* _NextVisited) :$/;"	f	struct:Ecc_Vertex_F
+Ecc_Vertex_F	eccentricity/kBFS-Ecc.C	/^struct Ecc_Vertex_F {$/;"	s	file:
+Ecc_Vertex_F	eccentricity/kBFS-Exact.C	/^  Ecc_Vertex_F(long _length, long* _Visited, long* _NextVisited) :$/;"	f	struct:Ecc_Vertex_F
+Ecc_Vertex_F	eccentricity/kBFS-Exact.C	/^struct Ecc_Vertex_F {$/;"	s	file:
+EdgeMap	bucketing/edgeMapReduce.h	/^  EdgeMap(graph<vertex>& _G, KV _empty, size_t ht_size=numeric_limits<size_t>::max()) : G(_G) {$/;"	f	struct:EdgeMap
+EdgeMap	bucketing/edgeMapReduce.h	/^struct EdgeMap {$/;"	s
+EdgeMap_F	utils.h	/^  EdgeMap_F(F &_f) : f(_f) {}$/;"	f	struct:EdgeMap_F
+EdgeMap_F	utils.h	/^struct EdgeMap_F {$/;"	s
+GRAPH_H	graph.h	2;"	d
+H6	eccentricity/LogLog-Ecc.C	31;"	d	file:
+H6_comp	eccentricity/LogLog-Ecc.C	32;"	d	file:
+HK_F	localAlg/HeatKernel-Parallel.C	/^  HK_F(sparseAdditiveSet<float> &_x, sparseAdditiveSet<float> &_r, sparseAdditiveSet<float> &_new_r, vertex* _V, double _toverjplus1) : $/;"	f	struct:HK_F
+HK_F	localAlg/HeatKernel-Parallel.C	/^struct HK_F {$/;"	s	file:
+HK_Last_F	localAlg/HeatKernel-Parallel.C	/^  HK_Last_F(sparseAdditiveSet<float> &_x, sparseAdditiveSet<float> &_r, vertex* _V) : $/;"	f	struct:HK_Last_F
+HK_Last_F	localAlg/HeatKernel-Parallel.C	/^struct HK_Last_F {$/;"	s	file:
+IDs	Components.C	/^  uintE* IDs, *prevIDs;$/;"	m	struct:CC_F	file:
+IDs	Components.C	/^  uintE* IDs, *prevIDs;$/;"	m	struct:CC_Vertex_F	file:
+IDs	eccentricity/CCBFS.h	/^  intE* IDs, *prevIDs;$/;"	m	struct:CC_F
+IDs	eccentricity/CCBFS.h	/^  intE* IDs, *prevIDs;$/;"	m	struct:CC_Vertex_F
+IN	MIS.C	/^enum {UNDECIDED,CONDITIONALLY_IN,OUT,IN};$/;"	e	enum:__anon1	file:
+INTE	Makefile	/^INTE = -DEDGELONG$/;"	m
+INTE	bucketing/Makefile	/^INTE = -DEDGELONG$/;"	m
+INTE	eccentricity/Makefile	/^INTE = -DEDGELONG$/;"	m
+INTE	localAlg/Makefile	/^INTE = -DEDGELONG$/;"	m
+INTSORT	eccentricity/Makefile	/^INTSORT= blockRadixSort.h transpose.h$/;"	m
+INTSORT	localAlg/Makefile	/^INTSORT= blockRadixSort.h transpose.h$/;"	m
+INTT	Makefile	/^INTT = -DLONG$/;"	m
+INTT	bucketing/Makefile	/^INTT = -DLONG$/;"	m
+INTT	eccentricity/Makefile	/^INTT = -DLONG$/;"	m
+INTT	localAlg/Makefile	/^INTT = -DLONG$/;"	m
+INT_E_MAX	parallel.h	118;"	d
+INT_E_MAX	parallel.h	123;"	d
+INT_T_MAX	parallel.h	105;"	d
+INT_T_MAX	parallel.h	110;"	d
+IOFileNames	parseCommandLine.h	/^  pair<char*,char*> IOFileNames() {$/;"	f	struct:commandLine
+ISORT	quickSort.h	38;"	d
+K	CF.C	/^  int K;$/;"	m	struct:CF_Edge_F	file:
+K	CF.C	/^  int K;$/;"	m	struct:CF_Vertex_F	file:
+KCore	bucketing/KCore.C	/^array_imap<uintE> KCore(graph<vertex>& GA, size_t num_buckets=128) {$/;"	f
+KCore	bucketing/KCoreSerial.C	/^array_imap<intT> KCore(graph<vertex>& G, bool printCores=false) {$/;"	f
+Kminus1	eccentricity/LogLog-Ecc.C	29;"	d	file:
+L	transpose.h	/^  intT *OA, *OB, *L;$/;"	m	struct:blockTrans
+L6	eccentricity/LogLog-Ecc.C	30;"	d	file:
+LAST_BIT_SET	byte-pd.h	38;"	d
+LAST_BIT_SET	byte.h	36;"	d
+LAST_BIT_SET	byteRLE-pd.h	36;"	d
+LAST_BIT_SET	byteRLE.h	38;"	d
+LAST_BIT_SET	nibble-pd.h	40;"	d
+LAST_BIT_SET	nibble.h	38;"	d
+LIGRA_H	ligra.h	25;"	d
+LOAD_FACTOR	localAlg/ACL-Sync-Local-Opt.C	76;"	d	file:
+LOAD_FACTOR	localAlg/ACL-Sync-Local.C	76;"	d	file:
+LOAD_FACTOR	localAlg/HeatKernel-Parallel.C	92;"	d	file:
+LOAD_FACTOR	localAlg/Nibble-Parallel.C	71;"	d	file:
+LOCAL_COMMON	localAlg/Makefile	/^LOCAL_COMMON = sweep.h sparseSet.h sampleSort.h$/;"	m
+Labels	eccentricity/CCBFS.h	/^  intE* Labels;$/;"	m	struct:CCBFS_F
+Local_Update	localAlg/ACL-Sync-Local-Opt.C	/^  Local_Update(sparseAdditiveSet<float> &_p, sparseAdditiveSet<float> &_r, double _alpha) :$/;"	f	struct:Local_Update
+Local_Update	localAlg/ACL-Sync-Local-Opt.C	/^struct Local_Update {$/;"	s	file:
+Local_Update	localAlg/ACL-Sync-Local.C	/^  Local_Update(sparseAdditiveSet<float> &_p, sparseAdditiveSet<float> &_r, double _alpha) :$/;"	f	struct:Local_Update
+Local_Update	localAlg/ACL-Sync-Local.C	/^struct Local_Update {$/;"	s	file:
+Local_Update	localAlg/HeatKernel-Parallel.C	/^  Local_Update(sparseAdditiveSet<float> &_x, sparseAdditiveSet<float> &_r) :$/;"	f	struct:Local_Update
+Local_Update	localAlg/HeatKernel-Parallel.C	/^struct Local_Update {$/;"	s	file:
+Local_Update	localAlg/Nibble-Parallel.C	/^  Local_Update(sparseAdditiveSet<float> &_p, sparseAdditiveSet<float> &_new_p) :$/;"	f	struct:Local_Update
+Local_Update	localAlg/Nibble-Parallel.C	/^struct Local_Update {$/;"	s	file:
+MAX_RADIX	blockRadixSort.h	48;"	d
+MEM	Makefile	/^MEM = -DLOWMEM$/;"	m
+MIN_BKT_SIZE	bucketing/dyn_arr.h	5;"	d
+MIS_Filter	MIS.C	/^  MIS_Filter(int* _flags) : flags(_flags) {}$/;"	f	struct:MIS_Filter
+MIS_Filter	MIS.C	/^struct MIS_Filter {$/;"	s	file:
+MIS_Update	MIS.C	/^  MIS_Update(int* _flags) : flags(_flags) {}$/;"	f	struct:MIS_Update
+MIS_Update	MIS.C	/^struct MIS_Update {$/;"	s	file:
+Maybe	maybe.h	/^  Maybe() : exists(false) {}$/;"	f	struct:Maybe
+Maybe	maybe.h	/^  Maybe(const T& _t) : t(_t), exists(true) {}$/;"	f	struct:Maybe
+Maybe	maybe.h	/^struct Maybe {$/;"	s
+NextVisited	Radii.C	/^  long* Visited, *NextVisited;$/;"	m	struct:Radii_F	file:
+NextVisited	Radii.C	/^  long* Visited, *NextVisited;$/;"	m	struct:Radii_Vertex_F	file:
+NextVisitedArray	eccentricity/FM-Ecc.C	/^  intE* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+NextVisitedArray	eccentricity/FM-Ecc.C	/^  intE* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+NextVisitedArray	eccentricity/LogLog-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+NextVisitedArray	eccentricity/LogLog-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+NextVisitedArray	eccentricity/kBFS-1Phase-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+NextVisitedArray	eccentricity/kBFS-1Phase-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+NextVisitedArray	eccentricity/kBFS-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+NextVisitedArray	eccentricity/kBFS-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+NextVisitedArray	eccentricity/kBFS-Exact.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+NextVisitedArray	eccentricity/kBFS-Exact.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+Nibble_F	localAlg/Nibble-Parallel.C	/^  Nibble_F(sparseAdditiveSet<float> &_p, sparseAdditiveSet<float> &_new_p, vertex* _V) : $/;"	f	struct:Nibble_F
+Nibble_F	localAlg/Nibble-Parallel.C	/^struct Nibble_F {$/;"	s	file:
+NumPaths	BC.C	/^  fType* NumPaths;$/;"	m	struct:BC_F	file:
+OA	transpose.h	/^  intT *OA, *OB, *L;$/;"	m	struct:blockTrans
+OB	transpose.h	/^  intT *OA, *OB, *L;$/;"	m	struct:blockTrans
+ONE_BYTE	byteRLE-pd.h	298;"	d
+ONE_BYTE	byteRLE.h	230;"	d
+ONE_BYTE_SIGNED_MAX	byteRLE-pd.h	301;"	d
+ONE_BYTE_SIGNED_MAX	byteRLE.h	233;"	d
+ONE_BYTE_SIGNED_MIN	byteRLE-pd.h	302;"	d
+ONE_BYTE_SIGNED_MIN	byteRLE.h	234;"	d
+OUT	MIS.C	/^enum {UNDECIDED,CONDITIONALLY_IN,OUT,IN};$/;"	e	enum:__anon1	file:
+PARALLEL	localAlg/Makefile	/^PARALLEL = ACL-Sync-Local ACL-Sync-Local-Opt HeatKernel-Parallel HeatKernel-Randomized-Parallel Nibble-Parallel$/;"	m
+PARALLEL_DEGREE	byte-pd.h	36;"	d
+PARALLEL_DEGREE	byteRLE-pd.h	39;"	d
+PARALLEL_DEGREE	nibble-pd.h	38;"	d
+PCC	Makefile	/^PCC = g++$/;"	m
+PCC	Makefile	/^PCC = icpc$/;"	m
+PCC	bucketing/Makefile	/^PCC = g++$/;"	m
+PCC	bucketing/Makefile	/^PCC = icpc$/;"	m
+PCC	eccentricity/Makefile	/^PCC = g++$/;"	m
+PCC	eccentricity/Makefile	/^PCC = icpc$/;"	m
+PCC	localAlg/Makefile	/^PCC = g++$/;"	m
+PCC	localAlg/Makefile	/^PCC = icpc$/;"	m
+PCFLAGS	Makefile	/^PCFLAGS = -std=c++14 -O1 -g3 -DCILKP $(INTT) $(INTE) $(CODE) $(PD) $(MEM)$/;"	m
+PCFLAGS	Makefile	/^PCFLAGS = -std=c++14 -O2 $(INTT) $(INTE) $(CODE) $(PD) $(MEM)$/;"	m
+PCFLAGS	Makefile	/^PCFLAGS = -std=c++14 -fcilkplus -lcilkrts -O2 -DCILK $(INTT) $(INTE) $(CODE) $(PD) $(MEM)$/;"	m
+PCFLAGS	Makefile	/^PCFLAGS = -std=c++14 -fopenmp -O3 -DOPENMP $(INTT) $(INTE) $(CODE) $(PD) $(MEM)$/;"	m
+PCFLAGS	bucketing/Makefile	/^PCFLAGS = -std=c++14 -O2 $(INTT) $(INTE) $(CODE) $(PD)$/;"	m
+PCFLAGS	bucketing/Makefile	/^PCFLAGS = -std=c++14 -O3 -DCILKP $(INTT) $(INTE) $(CODE) $(PD)$/;"	m
+PCFLAGS	bucketing/Makefile	/^PCFLAGS = -std=c++14 -fcilkplus -lcilkrts -O3 -DCILK $(INTT) $(INTE) $(CODE) $(PD) $(FLAGS)$/;"	m
+PCFLAGS	bucketing/Makefile	/^PCFLAGS = -std=c++14 -fopenmp -O3 -DOPENMP $(INTT) $(INTE) $(CODE) $(PD)$/;"	m
+PCFLAGS	eccentricity/Makefile	/^PCFLAGS = -O3 -DCILKP $(INTT) $(INTE)$/;"	m
+PCFLAGS	eccentricity/Makefile	/^PCFLAGS = -std=c++14 -O2 $(INTT) $(INTE)$/;"	m
+PCFLAGS	eccentricity/Makefile	/^PCFLAGS = -std=c++14 -fcilkplus -lcilkrts -O2 -DCILK $(INTT) $(INTE)$/;"	m
+PCFLAGS	eccentricity/Makefile	/^PCFLAGS = -std=c++14 -fopenmp -O3 -DOPENMP $(INTT) $(INTE)$/;"	m
+PCFLAGS	localAlg/Makefile	/^PCFLAGS = -std=c++14 -O2 $(INTT) $(INTE)$/;"	m
+PCFLAGS	localAlg/Makefile	/^PCFLAGS = -std=c++14 -O3 -DCILKP $(INTT) $(INTE)$/;"	m
+PCFLAGS	localAlg/Makefile	/^PCFLAGS = -std=c++14 -fcilkplus -lcilkrts -O2 -DCILK $(INTT) $(INTE)$/;"	m
+PCFLAGS	localAlg/Makefile	/^PCFLAGS = -std=c++14 -fopenmp -O3 -DOPENMP $(INTT) $(INTE)$/;"	m
+PD	Makefile	/^PD = -DPD$/;"	m
+PD	bucketing/Makefile	/^PD = -DPD$/;"	m
+PIVOT_QUOT	localAlg/sampleSort.h	54;"	d
+PLFLAGS	Makefile	/^PLFLAGS = -fcilkplus -lcilkrts$/;"	m
+PLFLAGS	bucketing/Makefile	/^PLFLAGS = -fcilkplus -lcilkrts$/;"	m
+PLFLAGS	eccentricity/Makefile	/^PLFLAGS = -fcilkplus -lcilkrts$/;"	m
+PLFLAGS	localAlg/Makefile	/^PLFLAGS = -fcilkplus -lcilkrts$/;"	m
+PR_F	PageRank.C	/^  PR_F(double* _p_curr, double* _p_next, vertex* _V) : $/;"	f	struct:PR_F
+PR_F	PageRank.C	/^struct PR_F {$/;"	s	file:
+PR_F	PageRankDelta.C	/^  PR_F(vertex* _V, double* _Delta, double* _nghSum) : $/;"	f	struct:PR_F
+PR_F	PageRankDelta.C	/^struct PR_F {$/;"	s	file:
+PR_Vertex_F	PageRank.C	/^  PR_Vertex_F(double* _p_curr, double* _p_next, double _damping, intE n) :$/;"	f	struct:PR_Vertex_F
+PR_Vertex_F	PageRank.C	/^struct PR_Vertex_F {$/;"	s	file:
+PR_Vertex_F	PageRankDelta.C	/^  PR_Vertex_F(double* _p, double* _Delta, double* _nghSum, double _damping, double _epsilon2) :$/;"	f	struct:PR_Vertex_F
+PR_Vertex_F	PageRankDelta.C	/^struct PR_Vertex_F {$/;"	s	file:
+PR_Vertex_F_FirstRound	PageRankDelta.C	/^  PR_Vertex_F_FirstRound(double* _p, double* _Delta, double* _nghSum, double _damping, double _one_over_n,double _epsilon2) :$/;"	f	struct:PR_Vertex_F_FirstRound
+PR_Vertex_F_FirstRound	PageRankDelta.C	/^struct PR_Vertex_F_FirstRound {$/;"	s	file:
+PR_Vertex_Reset	PageRank.C	/^  PR_Vertex_Reset(double* _p_curr) :$/;"	f	struct:PR_Vertex_Reset
+PR_Vertex_Reset	PageRank.C	/^struct PR_Vertex_Reset {$/;"	s	file:
+PR_Vertex_Reset	PageRankDelta.C	/^  PR_Vertex_Reset(double* _nghSum) :$/;"	f	struct:PR_Vertex_Reset
+PR_Vertex_Reset	PageRankDelta.C	/^struct PR_Vertex_Reset {$/;"	s	file:
+Parents	BFS-Bitvector.C	/^  uintE* Parents; long* Visited;$/;"	m	struct:BFS_F	file:
+Parents	BFS.C	/^	uintE* Parents;$/;"	m	struct:BFS_F	file:
+Parents	BFSCC.C	/^  uintE* Parents;$/;"	m	struct:BFS_F	file:
+Radii_F	Radii.C	/^  Radii_F(long* _Visited, long* _NextVisited, intE* _radii, intE _round) : $/;"	f	struct:Radii_F
+Radii_F	Radii.C	/^struct Radii_F {$/;"	s	file:
+Radii_Vertex_F	Radii.C	/^  Radii_Vertex_F(long* _Visited, long* _NextVisited) :$/;"	f	struct:Radii_Vertex_F
+Radii_Vertex_F	Radii.C	/^struct Radii_Vertex_F {$/;"	s	file:
+SAMPLE_SORT_H	localAlg/sampleSort.h	23;"	d
+SERIAL	localAlg/Makefile	/^SERIAL = ACL-Serial ACL-Serial-Naive ACL-Serial-Opt ACL-Serial-Opt-Naive HeatKernel-Serial HeatKernel-Randomized-Serial Nibble-Serial$/;"	m
+SSORT_THR	localAlg/sampleSort.h	52;"	d
+S_HASH_INCLUDED	localAlg/sparseSet.h	25;"	d
+S_STRIDE	bucketing/histogram.h	120;"	d
+SetCover	bucketing/SetCover.C	/^dyn_arr<uintE> SetCover(graph<vertex>& G, size_t num_buckets=128) {$/;"	f
+ShortestPathLen	BellmanFord.C	/^  intE* ShortestPathLen;$/;"	m	struct:BF_F	file:
+Strings	IO.h	/^  char** Strings; \/\/ pointers to strings (all should be null terminated)$/;"	m	struct:words
+T	bucketing/sequentialHT.h	/^ typedef tuple<K,V> T;$/;"	t	class:sequentialHT
+TA	localAlg/sparseSet.h	/^  kvPair* TA;$/;"	m	class:sparseAdditiveSet
+THREE_BYTES	byteRLE-pd.h	300;"	d
+THREE_BYTES	byteRLE.h	232;"	d
+THREE_BYTES_SIGNED_MAX	byteRLE-pd.h	305;"	d
+THREE_BYTES_SIGNED_MAX	byteRLE.h	237;"	d
+THREE_BYTES_SIGNED_MIN	byteRLE-pd.h	306;"	d
+THREE_BYTES_SIGNED_MIN	byteRLE.h	238;"	d
+TOP_BIT	bucketing/DeltaStepping.C	/^constexpr uintE TOP_BIT = ((uintE)INT_E_MAX) + 1;$/;"	v
+TOP_BIT	bucketing/SetCover.C	/^constexpr uintE TOP_BIT = ((uintE)INT_E_MAX) + 1;$/;"	v
+TWO_BYTES	byteRLE-pd.h	299;"	d
+TWO_BYTES	byteRLE.h	231;"	d
+TWO_BYTES_SIGNED_MAX	byteRLE-pd.h	303;"	d
+TWO_BYTES_SIGNED_MAX	byteRLE.h	235;"	d
+TWO_BYTES_SIGNED_MIN	byteRLE-pd.h	304;"	d
+TWO_BYTES_SIGNED_MIN	byteRLE.h	236;"	d
+UINT_E_MAX	parallel.h	119;"	d
+UINT_E_MAX	parallel.h	124;"	d
+UINT_T_MAX	parallel.h	106;"	d
+UINT_T_MAX	parallel.h	111;"	d
+UNDECIDED	MIS.C	/^enum {UNDECIDED,CONDITIONALLY_IN,OUT,IN};$/;"	e	enum:__anon1	file:
+UTIL_H	utils.h	25;"	d
+Uncompressed_Mem	graph.h	/^  Uncompressed_Mem(vertex* VV, long nn, long mm, void* ai, void* _inEdges = NULL)$/;"	f	struct:Uncompressed_Mem
+Uncompressed_Mem	graph.h	/^struct Uncompressed_Mem : public Deletable {$/;"	s
+Update_Deg	KCore.C	/^  Update_Deg(intE* _Degrees) : Degrees(_Degrees) {}$/;"	f	struct:Update_Deg
+Update_Deg	KCore.C	/^struct Update_Deg {$/;"	s	file:
+V	CF.C	/^  vertex* V;$/;"	m	struct:CF_Edge_F	file:
+V	KCore.C	/^  vertex* V;$/;"	m	struct:Deg_AtLeast_K	file:
+V	KCore.C	/^  vertex* V;$/;"	m	struct:Deg_LessThan_K	file:
+V	PageRank.C	/^  vertex* V;$/;"	m	struct:PR_F	file:
+V	PageRankDelta.C	/^  vertex* V;$/;"	m	struct:PR_F	file:
+V	Triangle.C	/^  vertex* V;$/;"	m	struct:countF	file:
+V	Triangle.C	/^  vertex* V;$/;"	m	struct:initF	file:
+V	eccentricity/CLRSTV.C	/^  vertex* V;$/;"	m	struct:getDegree	file:
+V	eccentricity/RV.C	/^  vertex* V;$/;"	m	struct:getDegree	file:
+V	eccentricity/Simple-Approx-Ecc.C	/^  vertex* V;$/;"	m	struct:getDegree	file:
+V	eccentricity/TK.C	/^  vertex* V;$/;"	m	struct:getDegree	file:
+V	eccentricity/kBFS-1Phase-Ecc.C	/^  vertex* V;$/;"	m	struct:getDegree	file:
+V	eccentricity/kBFS-Ecc.C	/^  vertex* V;$/;"	m	struct:getDegree	file:
+V	graph.h	/^  vertex *V;$/;"	m	struct:graph
+V	graph.h	/^  vertex* V;$/;"	m	struct:Compressed_Mem
+V	graph.h	/^  vertex* V;$/;"	m	struct:Uncompressed_Mem
+V	localAlg/ACL-Sync-Local-Opt.C	/^  vertex* V;$/;"	m	struct:ACL_F	file:
+V	localAlg/ACL-Sync-Local-Opt.C	/^  vertex* V;$/;"	m	struct:activeF	file:
+V	localAlg/ACL-Sync-Local.C	/^  vertex* V;$/;"	m	struct:ACL_F	file:
+V	localAlg/ACL-Sync-Local.C	/^  vertex* V;$/;"	m	struct:activeF	file:
+V	localAlg/HeatKernel-Parallel.C	/^  vertex* V;$/;"	m	struct:HK_F	file:
+V	localAlg/HeatKernel-Parallel.C	/^  vertex* V;$/;"	m	struct:HK_Last_F	file:
+V	localAlg/HeatKernel-Parallel.C	/^  vertex* V;$/;"	m	struct:activeF	file:
+V	localAlg/Nibble-Parallel.C	/^  vertex* V;$/;"	m	struct:Nibble_F	file:
+V	localAlg/Nibble-Parallel.C	/^  vertex* V;$/;"	m	struct:activeF	file:
+V	localAlg/sweep.h	/^  vertex* V;$/;"	m	struct:sweep_compare
+VAL_MASK	bucketing/DeltaStepping.C	/^constexpr uintE VAL_MASK = INT_E_MAX;$/;"	v
+VERTEX_H	vertex.h	2;"	d
+Visit_Elms	bucketing/SetCover.C	/^  Visit_Elms(uintE* _elms) : elms(_elms) { }$/;"	f	struct:Visit_Elms
+Visit_Elms	bucketing/SetCover.C	/^struct Visit_Elms {$/;"	s	file:
+Visit_F	bucketing/DeltaStepping.C	/^  Visit_F(array_imap<uintE>& _dists) : dists(_dists) { }$/;"	f	struct:Visit_F
+Visit_F	bucketing/DeltaStepping.C	/^struct Visit_F {$/;"	s	file:
+Visited	BC.C	/^  bool* Visited;$/;"	m	struct:BC_Back_F	file:
+Visited	BC.C	/^  bool* Visited;$/;"	m	struct:BC_Back_Vertex_F	file:
+Visited	BC.C	/^  bool* Visited;$/;"	m	struct:BC_F	file:
+Visited	BC.C	/^  bool* Visited;$/;"	m	struct:BC_Vertex_F	file:
+Visited	BFS-Bitvector.C	/^  uintE* Parents; long* Visited;$/;"	m	struct:BFS_F	file:
+Visited	BellmanFord.C	/^  int* Visited;$/;"	m	struct:BF_F	file:
+Visited	BellmanFord.C	/^  int* Visited;$/;"	m	struct:BF_Vertex_F	file:
+Visited	Radii.C	/^  long* Visited, *NextVisited;$/;"	m	struct:Radii_F	file:
+Visited	Radii.C	/^  long* Visited, *NextVisited;$/;"	m	struct:Radii_Vertex_F	file:
+VisitedArray	eccentricity/FM-Ecc.C	/^  intE* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+VisitedArray	eccentricity/FM-Ecc.C	/^  intE* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+VisitedArray	eccentricity/LogLog-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+VisitedArray	eccentricity/LogLog-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+VisitedArray	eccentricity/kBFS-1Phase-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+VisitedArray	eccentricity/kBFS-1Phase-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+VisitedArray	eccentricity/kBFS-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+VisitedArray	eccentricity/kBFS-Ecc.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+VisitedArray	eccentricity/kBFS-Exact.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_F	file:
+VisitedArray	eccentricity/kBFS-Exact.C	/^  long* VisitedArray, *NextVisitedArray;$/;"	m	struct:Ecc_Vertex_F	file:
+WEIGHTED	BellmanFord.C	24;"	d	file:
+WEIGHTED	CF.C	20;"	d	file:
+WEIGHTED	bucketing/DeltaStepping.C	1;"	d	file:
+_BENCH_GETTIME_INCLUDED	gettime.h	23;"	d
+_F_BSIZE	utils.h	233;"	d
+_PARALLEL_H	parallel.h	25;"	d
+_PARSE_COMMAND_LINE	parseCommandLine.h	24;"	d
+_SCAN_BSIZE	utils.h	78;"	d
+_SCAN_LOG_BSIZE	utils.h	77;"	d
+_TRANS_THRESHHOLD	transpose.h	28;"	d
+__ii	utils.h	/^static int __ii =  mallopt(M_MMAP_MAX,0);$/;"	v
+__jj	utils.h	/^static int __jj =  mallopt(M_TRIM_THRESHOLD,-1);$/;"	v
+_binary_search_base	binary_search.h	/^  constexpr const size_t _binary_search_base = 16;$/;"	m	namespace:pbbs
+_block_size	sequence.h	/^  constexpr const size_t _block_size = (1 << _log_block_size);$/;"	m	namespace:pbbs
+_count_sort	bucketing/counting_sort.h	/^  inline tuple<E*, s_size_t*, s_size_t> _count_sort(I& A, F& get_key, s_size_t n, s_size_t num_buckets) {$/;"	f	namespace:pbbs
+_count_sort_size	bucketing/counting_sort.h	/^    size_t* _count_sort_size(E* A, F& get_key, size_t n, size_t num_buckets) {$/;"	f	namespace:pbbs
+_cs_max_blocks	bucketing/counting_sort.h	/^  constexpr const size_t _cs_max_blocks = 512;$/;"	m	namespace:pbbs
+_cs_seq_threshold	bucketing/counting_sort.h	/^  constexpr const size_t _cs_seq_threshold = 2048;$/;"	m	namespace:pbbs
+_f	blockRadixSort.h	/^      F _f;  long _mask;  long _offset;$/;"	m	struct:intSort::eBits
+_hist_max_buckets	bucketing/histogram.h	/^  constexpr const size_t _hist_max_buckets = 2048;$/;"	m	namespace:pbbs
+_hist_seq_threshold	bucketing/histogram.h	/^  constexpr const size_t _hist_seq_threshold = 3500;$/;"	m	namespace:pbbs
+_log_block_size	sequence.h	/^  constexpr const size_t _log_block_size = 12;$/;"	m	namespace:pbbs
+_mask	blockRadixSort.h	/^      F _f;  long _mask;  long _offset;$/;"	m	struct:intSort::eBits
+_next_bucket	bucketing/bucket.h	/^    inline void _next_bucket() {$/;"	f	struct:buckets
+_offset	blockRadixSort.h	/^      F _f;  long _mask;  long _offset;$/;"	m	struct:intSort::eBits
+_seq	utils.h	/^  _seq() {A = NULL; n=0;}$/;"	f	struct:_seq
+_seq	utils.h	/^_seq(T* _A, long _n) : A(_A), n(_n) {}$/;"	f	struct:_seq
+_seq	utils.h	/^struct _seq {$/;"	s
+_seq_count_sort	bucketing/counting_sort.h	/^  inline void _seq_count_sort(I& In, E* Out, F& get_key,$/;"	f	namespace:pbbs
+_tm	gettime.h	/^static timer _tm;$/;"	v
+activeF	localAlg/ACL-Sync-Local-Opt.C	/^  activeF(vertex* _V, double _epsilon) :$/;"	f	struct:activeF
+activeF	localAlg/ACL-Sync-Local-Opt.C	/^struct activeF {$/;"	s	file:
+activeF	localAlg/ACL-Sync-Local.C	/^  activeF(vertex* _V, double _epsilon) :$/;"	f	struct:activeF
+activeF	localAlg/ACL-Sync-Local.C	/^struct activeF {$/;"	s	file:
+activeF	localAlg/HeatKernel-Parallel.C	/^  activeF(vertex* _V, double _constantOverPsi) :$/;"	f	struct:activeF
+activeF	localAlg/HeatKernel-Parallel.C	/^struct activeF {$/;"	s	file:
+activeF	localAlg/Nibble-Parallel.C	/^  activeF(vertex* _V, double _epsilon) :$/;"	f	struct:activeF
+activeF	localAlg/Nibble-Parallel.C	/^struct activeF {$/;"	s	file:
+addF	utils.h	/^struct addF { E operator() (const E& a, const E& b) const {return a+b;}};$/;"	s
+addFirst	localAlg/sweep.h	/^struct addFirst { pairIntT operator() (pairIntT a, pairIntT b){$/;"	s
+addedConstant	PageRank.C	/^  double addedConstant;$/;"	m	struct:PR_Vertex_F	file:
+addedConstant	PageRankDelta.C	/^  double damping, addedConstant, one_over_n, epsilon2;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+alloc	bucketing/dyn_arr.h	/^  bool alloc;$/;"	m	struct:dyn_arr
+alloc	index_map.h	/^  bool alloc;$/;"	m	struct:array_imap
+allocatedInplace	graph.h	/^  void* allocatedInplace, * inEdges;$/;"	m	struct:Uncompressed_Mem
+alpha	localAlg/ACL-Sync-Local.C	/^  double alpha, toSubtract;$/;"	m	struct:Local_Update	file:
+argc	parseCommandLine.h	/^  int argc;$/;"	m	struct:commandLine
+argv	parseCommandLine.h	/^  char** argv;$/;"	m	struct:commandLine
+array_imap	index_map.h	/^  array_imap() : alloc(false) {}$/;"	f	struct:array_imap
+array_imap	index_map.h	/^  array_imap(E* s, size_t n, bool alloc=false)$/;"	f	struct:array_imap
+array_imap	index_map.h	/^  array_imap(const array_imap& b) : s(b.s), e(b.e), alloc(false) {}$/;"	f	struct:array_imap
+array_imap	index_map.h	/^  array_imap(const size_t n) : s(pbbs::new_array_no_init<E>(n)), e(s + n), alloc(true) {};$/;"	f	struct:array_imap
+array_imap	index_map.h	/^  array_imap(const size_t n, F f) : s(pbbs::new_array_no_init<E>(n)), e(s + n), alloc(true) {$/;"	f	struct:array_imap
+array_imap	index_map.h	/^struct array_imap {$/;"	s
+assign_uninitialized	utils.h	/^  inline void assign_uninitialized(T& a, const T& b) {$/;"	f	namespace:pbbs
+asymmetricVertex	vertex.h	/^asymmetricVertex(uintE* iN, uintE* oN, uintT id, uintT od)$/;"	f	struct:asymmetricVertex
+asymmetricVertex	vertex.h	/^struct asymmetricVertex {$/;"	s
+bIndexT	blockRadixSort.h	/^  typedef unsigned char bIndexT;$/;"	t	namespace:intSort
+badArgument	parseCommandLine.h	/^  void badArgument() {$/;"	f	struct:commandLine
+bestGlobalCond	localAlg/sweep.h	/^static double bestGlobalCond = DBL_MAX;$/;"	v
+bestSize	localAlg/sweep.h	/^static long bestSize = -1;$/;"	v
+bestStart	localAlg/sweep.h	/^static long bestStart = -1;$/;"	v
+bin	bucketing/KCoreSerial.C	/^  intT* bin;$/;"	m	struct:decompress_f	file:
+binary_search	binary_search.h	/^  size_t binary_search(Sequence I, typename Sequence::T v, const F& less) {$/;"	f	namespace:pbbs
+bkts	bucketing/bucket.h	/^    id_dyn_arr* bkts;$/;"	m	struct:buckets
+blockTrans	transpose.h	/^  blockTrans(E *AA, E *BB, intT *OOA, intT *OOB, intT *LL) $/;"	f	struct:blockTrans
+blockTrans	transpose.h	/^struct blockTrans {$/;"	s
+blocked_for	utils.h	114;"	d
+boolGetA	utils.h	/^    boolGetA(bool* AA) : A(AA) {}$/;"	f	struct:sequence::boolGetA
+boolGetA	utils.h	/^  struct boolGetA {$/;"	s	namespace:sequence
+broadwordMax	eccentricity/LogLog-Ecc.C	43;"	d	file:
+bucket	bucketing/bucket.h	/^  bucket(size_t _id, vertexSubset _identifiers) :$/;"	f	struct:bucket
+bucket	bucketing/bucket.h	/^struct bucket {$/;"	s
+bucket_dest	bucketing/bucket.h	/^typedef uintE bucket_dest;$/;"	t
+bucket_id	bucketing/bucket.h	/^typedef uintE bucket_id;$/;"	t
+bucket_order	bucketing/bucket.h	/^enum bucket_order {$/;"	g
+buckets	bucketing/bucket.h	/^    buckets(size_t _n,$/;"	f	struct:buckets
+buckets	bucketing/bucket.h	/^struct buckets {$/;"	s
+capacity	bucketing/dyn_arr.h	/^  size_t capacity;$/;"	m	struct:dyn_arr
+checkMis	MIS.C	/^bool checkMis(graph<vertex>& G, int* flags) {$/;"	f
+cilk_for	parallel.h	94;"	d
+cilk_spawn	parallel.h	77;"	d
+cilk_spawn	parallel.h	88;"	d
+cilk_sync	parallel.h	78;"	d
+cilk_sync	parallel.h	89;"	d
+clear	bucketing/dyn_arr.h	/^  void clear() { size = 0; }$/;"	f	struct:dyn_arr
+clearA	localAlg/sparseSet.h	/^  static void clearA(kvPair* A, long n, kvPair v) {$/;"	f	class:sparseAdditiveSet
+comLine	parseCommandLine.h	/^  string comLine;$/;"	m	struct:commandLine
+commandLine	parseCommandLine.h	/^  commandLine(int _c, char** _v) $/;"	f	struct:commandLine
+commandLine	parseCommandLine.h	/^  commandLine(int _c, char** _v, string _cl) $/;"	f	struct:commandLine
+commandLine	parseCommandLine.h	/^struct commandLine {$/;"	s
+compactInto	bucketing/sequentialHT.h	/^  inline size_t compactInto(F& f, E* Out) {$/;"	f	class:sequentialHT
+compressEdge	byte-pd.h	/^long compressEdge(uchar *start, long curOffset, uintE e) {$/;"	f
+compressEdge	byte.h	/^long compressEdge(uchar *start, long curOffset, uintE e) {$/;"	f
+compressEdges	byteRLE-pd.h	/^long compressEdges(uchar *start, long curOffset, uintE* savedEdges, uintE edgeI, int numBytes, uintT runlength) {$/;"	f
+compressEdges	byteRLE.h	/^long compressEdges(uchar *start, long curOffset, uintE* savedEdges, uintE edgeI, int numBytes, uintT runlength) {$/;"	f
+compressFirstEdge	byte-pd.h	/^long compressFirstEdge(uchar *start, long offset, uintE source, uintE target) {$/;"	f
+compressFirstEdge	byte.h	/^long compressFirstEdge(uchar *start, long offset, uintE source, uintE target) {$/;"	f
+compressFirstEdge	byteRLE-pd.h	/^long compressFirstEdge(uchar *start, long offset, uintE source, uintE target) {$/;"	f
+compressFirstEdge	byteRLE.h	/^long compressFirstEdge(uchar *start, long offset, uintE source, uintE target) {$/;"	f
+compressWeightedEdges	byteRLE-pd.h	/^long compressWeightedEdges(uchar *start, long curOffset, intEPair* savedEdges, uintE edgeI, int numBytes, int numBytesWeight, uintT runlength) {$/;"	f
+compressWeightedEdges	byteRLE.h	/^long compressWeightedEdges(uchar *start, long curOffset, intEPair* savedEdges, uintE edgeI, int numBytes, int numBytesWeight, uintT runlength) {$/;"	f
+compressedAsymmetricVertex	compressedVertex.h	/^struct compressedAsymmetricVertex {$/;"	s
+compressedSymmetricVertex	compressedVertex.h	/^struct compressedSymmetricVertex {$/;"	s
+cond	BC.C	/^  inline bool cond (uintE d) { return Visited[d] == 0; } \/\/check if visited$/;"	f	struct:BC_Back_F
+cond	BC.C	/^  inline bool cond (uintE d) { return Visited[d] == 0; } \/\/check if visited$/;"	f	struct:BC_F
+cond	BFS-Bitvector.C	/^  inline bool cond (uintE d) { $/;"	f	struct:BFS_F
+cond	BFS.C	/^	inline bool cond (uintE d) { return (Parents[d] == UINT_E_MAX); } $/;"	f	struct:BFS_F
+cond	BFSCC.C	/^  inline bool cond (uintE d) { return (Parents[d] == UINT_E_MAX); } $/;"	f	struct:BFS_F
+cond	BellmanFord.C	/^  inline bool cond (uintE d) { return cond_true(d); }$/;"	f	struct:BF_F
+cond	CF.C	/^  inline bool cond (intT d) { return cond_true(d); }};$/;"	f	struct:CF_Edge_F
+cond	Components.C	/^  inline bool cond (uintE d) { return cond_true(d); } \/\/does nothing$/;"	f	struct:CC_F
+cond	KCore.C	/^  inline bool cond (uintE d) { return Degrees[d] > 0; }$/;"	f	struct:Update_Deg
+cond	MIS.C	/^  inline bool cond (uintE i) {return cond_true(i);}$/;"	f	struct:MIS_Update
+cond	PageRank.C	/^  inline bool cond (intT d) { return cond_true(d); }};$/;"	f	struct:PR_F
+cond	PageRankDelta.C	/^  inline bool cond (uintE d) { return cond_true(d); }};$/;"	f	struct:PR_F
+cond	Radii.C	/^  inline bool cond (uintE d) { return cond_true(d); }$/;"	f	struct:Radii_F
+cond	Triangle.C	/^  inline bool cond (uintE d) { return cond_true(d); } \/\/does nothing$/;"	f	struct:countF
+cond	bucketing/DeltaStepping.C	/^  inline bool cond(const uintE& d) const { return true; }$/;"	f	struct:Visit_F
+cond	bucketing/KCoreSerial.C	/^  inline bool cond (uintE d) { return true; }$/;"	f	struct:decompress_f
+cond	bucketing/SetCover.C	/^  inline bool cond(const uintE& d) const { return elms[d] != COVERED; }$/;"	f	struct:Visit_Elms
+cond	eccentricity/CCBFS.h	/^  inline bool cond(const uintE &d) { return Labels[d] == INT_E_MAX;}};$/;"	f	struct:CCBFS_F
+cond	eccentricity/CCBFS.h	/^  inline bool cond(const uintE &d) { return prevIDs[d] >= 0;}};$/;"	f	struct:CC_F
+cond	eccentricity/CLRSTV.C	/^  inline bool cond(const uintE &d) { return Dist[d] == UINT_E_MAX;}};$/;"	f	struct:BFS_F
+cond	eccentricity/FM-Ecc.C	/^  inline bool cond(const uintE &i) { return cond_true(i);}};$/;"	f	struct:Ecc_F
+cond	eccentricity/LogLog-Ecc.C	/^  inline bool cond(const uintE &i) { return cond_true(i);}};$/;"	f	struct:Ecc_F
+cond	eccentricity/RV.C	/^  inline bool cond(const uintE &d) { return Dist[d] == UINT_E_MAX;}};$/;"	f	struct:BFS_F
+cond	eccentricity/RV.C	/^  inline bool cond(const uintE &d) { return Dist[d].first == UINT_E_MAX;}};$/;"	f	struct:BFS_Pair_F
+cond	eccentricity/Simple-Approx-Ecc.C	/^  inline bool cond(const uintE &d) { return Dist[d] == UINT_E_MAX;}};$/;"	f	struct:BFS_F
+cond	eccentricity/TK.C	/^  inline bool cond(const uintE &d) { return Dist[d] == UINT_E_MAX;}};$/;"	f	struct:BFS_F
+cond	eccentricity/kBFS-1Phase-Ecc.C	/^  inline bool cond(const uintE &i) {return cond_true(i);}};$/;"	f	struct:Ecc_F
+cond	eccentricity/kBFS-Ecc.C	/^  inline bool cond(const uintE &i) {return cond_true(i);}};$/;"	f	struct:Ecc_F
+cond	eccentricity/kBFS-Exact.C	/^  inline bool cond(const uintE &i) { return cond_true(i);}};$/;"	f	struct:Ecc_F
+cond	localAlg/ACL-Sync-Local-Opt.C	/^  inline bool cond (intT d) { return cond_true(d); }}; $/;"	f	struct:ACL_F
+cond	localAlg/ACL-Sync-Local.C	/^  inline bool cond (intT d) { return cond_true(d); }}; $/;"	f	struct:ACL_F
+cond	localAlg/HeatKernel-Parallel.C	/^  inline bool cond (intT d) { return cond_true(d); }}; $/;"	f	struct:HK_F
+cond	localAlg/HeatKernel-Parallel.C	/^  inline bool cond (intT d) { return cond_true(d); }}; $/;"	f	struct:HK_Last_F
+cond	localAlg/Nibble-Parallel.C	/^  inline bool cond (intT d) { return cond_true(d); }}; $/;"	f	struct:Nibble_F
+cond	utils.h	/^  inline bool cond(const uintE& d) const { return true; }$/;"	f	struct:EdgeMap_F
+cond_true	ligra.h	/^inline bool cond_true (intT d) { return 1; }$/;"	f
+conductance	localAlg/sweep.h	/^  double conductance;$/;"	m	struct:sweepObject
+constantOverPsi	localAlg/HeatKernel-Parallel.C	/^  double constantOverPsi;$/;"	m	struct:activeF	file:
+copy	localAlg/sparseSet.h	/^  void copy(sparseAdditiveSet<E> &A) {$/;"	f	class:sparseAdditiveSet
+copyIn	bucketing/dyn_arr.h	/^  inline void copyIn(F f, size_t n) {$/;"	f	struct:dyn_arr
+copyInF	bucketing/dyn_arr.h	/^  inline void copyInF(F f, size_t n) {$/;"	f	struct:dyn_arr
+copyOutNgh	compressedVertex.h	/^  inline void copyOutNgh(V* v, long i, uintT o, F& f, G& g) {$/;"	f	namespace:decode_compressed
+copyOutNgh	compressedVertex.h	/^  inline void copyOutNgh(long i, uintT o, F& f, G& g) {$/;"	f	struct:compressedAsymmetricVertex
+copyOutNgh	compressedVertex.h	/^  inline void copyOutNgh(long i, uintT o, F& f, G& g) {$/;"	f	struct:compressedSymmetricVertex
+copyOutNgh	vertex.h	/^  inline void copyOutNgh(V* v, long src, uintT o, F& f, G& g) {$/;"	f	namespace:decode_uncompressed
+copyOutNgh	vertex.h	/^  inline void copyOutNgh(long i, uintT o, F& f, G& g) {$/;"	f	struct:asymmetricVertex
+copyOutNgh	vertex.h	/^  inline void copyOutNgh(long i, uintT o, F& f, G& g) {$/;"	f	struct:symmetricVertex
+coreNumbers	KCore.C	/^  uintE* coreNumbers;$/;"	m	struct:Deg_LessThan_K	file:
+count	localAlg/sparseSet.h	/^  intT count() {$/;"	f	class:sparseAdditiveSet
+countCommon	Triangle.C	/^long countCommon(vertex& A, vertex& B, uintE a, uintE b) { $/;"	f
+countF	Triangle.C	/^  countF(vertex* _V, long* _counts) : V(_V), counts(_counts) {}$/;"	f	struct:countF
+countF	Triangle.C	/^struct countF { \/\/for edgeMap$/;"	s	file:
+countOutNgh	compressedVertex.h	/^  inline size_t countOutNgh(V* v, long i, F &f) {$/;"	f	namespace:decode_compressed
+countOutNgh	compressedVertex.h	/^  inline size_t countOutNgh(long i, F &f) {$/;"	f	struct:compressedAsymmetricVertex
+countOutNgh	compressedVertex.h	/^  inline size_t countOutNgh(long i, F &f) {$/;"	f	struct:compressedSymmetricVertex
+countOutNgh	vertex.h	/^  inline size_t countOutNgh(V* v, long vtx_id, F& f) {$/;"	f	namespace:decode_uncompressed
+countOutNgh	vertex.h	/^  inline size_t countOutNgh(long i, F &f) {$/;"	f	struct:asymmetricVertex
+countOutNgh	vertex.h	/^  inline size_t countOutNgh(long i, F &f) {$/;"	f	struct:symmetricVertex
+count_sort	bucketing/counting_sort.h	/^  size_t* count_sort(E* A, F& get_key, size_t n, size_t num_buckets) {$/;"	f	namespace:pbbs
+counts	Triangle.C	/^  long* counts; $/;"	m	struct:countF	file:
+counts	Triangle.C	/^  long* counts;$/;"	m	struct:initF	file:
+ct	compressedVertex.h	/^    size_t& ct;$/;"	m	struct:decode_compressed::sparseTCount
+curBucketNonEmpty	bucketing/bucket.h	/^    inline bool curBucketNonEmpty() {$/;"	f	struct:buckets
+cur_bkt	bucketing/bucket.h	/^    size_t cur_bkt;$/;"	m	struct:buckets
+cur_range	bucketing/bucket.h	/^    size_t cur_range;$/;"	m	struct:buckets
+cut	index_map.h	/^  in_imap<T,F> cut(size_t ss, size_t ee) {return in_imap<T,F>(s+ss,s+ee,f); }$/;"	f	struct:in_imap
+cut	index_map.h	/^  inline array_imap<T> cut(size_t ss, size_t ee) {$/;"	f	struct:array_imap
+cut	index_map.h	/^  iter_imap<Iterator> cut(size_t ss, size_t ee) {$/;"	f	struct:iter_imap
+cut	index_map.h	/^  out_imap<T,F> cut(size_t ss, size_t ee) {return out_imap<T,F>(s+ss,s+ee,f); }$/;"	f	struct:out_imap
+d	bucketing/bucket.h	/^    D d;$/;"	m	struct:buckets
+d	vertexSubset.h	/^  D* d;$/;"	m	struct:vertexSubsetData
+d	vertexSubset.h	/^  bool* d;$/;"	m	struct:vertexSubsetData
+damping	PageRank.C	/^  double damping;$/;"	m	struct:PR_Vertex_F	file:
+damping	PageRankDelta.C	/^  double damping, addedConstant, one_over_n, epsilon2;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+damping	PageRankDelta.C	/^  double damping, epsilon2;$/;"	m	struct:PR_Vertex_F	file:
+decode	byte-pd.h	/^  inline void decode(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decode	byte.h	/^  inline void decode(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decode	byteRLE-pd.h	/^  inline void decode(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decode	byteRLE.h	/^  inline void decode(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decode	nibble-pd.h	/^  inline void decode(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decode	nibble.h	/^  inline void decode(T t, uchar* edgeArr, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decodeInNghBreakEarly	compressedVertex.h	/^  inline void decodeInNghBreakEarly(V* v, long i, VS& vertexSubset, F &f, G &g, bool parallel = 0) {$/;"	f	namespace:decode_compressed
+decodeInNghBreakEarly	compressedVertex.h	/^  inline void decodeInNghBreakEarly(long i, VS& vertexSubset, F &f, G &g, bool parallel = 0) {$/;"	f	struct:compressedAsymmetricVertex
+decodeInNghBreakEarly	compressedVertex.h	/^  inline void decodeInNghBreakEarly(long i, VS& vertexSubset, F &f, G &g, bool parallel = 0) {$/;"	f	struct:compressedSymmetricVertex
+decodeInNghBreakEarly	vertex.h	/^  inline void decodeInNghBreakEarly(long v_id, VS& vertexSubset, F &f, G &g, bool parallel = 0) {$/;"	f	struct:asymmetricVertex
+decodeInNghBreakEarly	vertex.h	/^  inline void decodeInNghBreakEarly(long v_id, VS& vertexSubset, F &f, G &g, bool parallel = 0) {$/;"	f	struct:symmetricVertex
+decodeInNghBreakEarly	vertex.h	/^  inline void decodeInNghBreakEarly(vertex* v, long v_id, VS& vertexSubset, F &f, G &g, bool parallel = 0) {$/;"	f	namespace:decode_uncompressed
+decodeOutNgh	compressedVertex.h	/^  inline void decodeOutNgh(V* v, long i, F &f, G &g) {$/;"	f	namespace:decode_compressed
+decodeOutNgh	compressedVertex.h	/^  inline void decodeOutNgh(long i, F &f, G &g) {$/;"	f	struct:compressedAsymmetricVertex
+decodeOutNgh	compressedVertex.h	/^  inline void decodeOutNgh(long i, F &f, G &g) {$/;"	f	struct:compressedSymmetricVertex
+decodeOutNgh	vertex.h	/^  inline void decodeOutNgh(V* v, long i, F &f, G &g) {$/;"	f	namespace:decode_uncompressed
+decodeOutNgh	vertex.h	/^  inline void decodeOutNgh(long i, F &f, G &g) {$/;"	f	struct:asymmetricVertex
+decodeOutNgh	vertex.h	/^  inline void decodeOutNgh(long i, F &f, G& g) {$/;"	f	struct:symmetricVertex
+decodeOutNghSparse	compressedVertex.h	/^  inline void decodeOutNghSparse(V* v, long i, uintT o, F &f, G &g) {$/;"	f	namespace:decode_compressed
+decodeOutNghSparse	compressedVertex.h	/^  inline void decodeOutNghSparse(long i, uintT o, F &f, G &g) {$/;"	f	struct:compressedAsymmetricVertex
+decodeOutNghSparse	compressedVertex.h	/^  inline void decodeOutNghSparse(long i, uintT o, F &f, G &g) {$/;"	f	struct:compressedSymmetricVertex
+decodeOutNghSparse	vertex.h	/^  inline void decodeOutNghSparse(V* v, long i, uintT o, F &f, G &g) {$/;"	f	namespace:decode_uncompressed
+decodeOutNghSparse	vertex.h	/^  inline void decodeOutNghSparse(long i, uintT o, F &f, G &g) {$/;"	f	struct:asymmetricVertex
+decodeOutNghSparse	vertex.h	/^  inline void decodeOutNghSparse(long i, uintT o, F &f, G &g) {$/;"	f	struct:symmetricVertex
+decodeOutNghSparseSeq	compressedVertex.h	/^  inline size_t decodeOutNghSparseSeq(V* v, long i, uintT o, F &f, G &g) {$/;"	f	namespace:decode_compressed
+decodeOutNghSparseSeq	compressedVertex.h	/^  inline size_t decodeOutNghSparseSeq(long i, uintT o, F &f, G &g) {$/;"	f	struct:compressedAsymmetricVertex
+decodeOutNghSparseSeq	compressedVertex.h	/^  inline size_t decodeOutNghSparseSeq(long i, uintT o, F &f, G &g) {$/;"	f	struct:compressedSymmetricVertex
+decodeOutNghSparseSeq	vertex.h	/^  inline size_t decodeOutNghSparseSeq(V* v, long i, uintT o, F &f, G &g) {$/;"	f	namespace:decode_uncompressed
+decodeOutNghSparseSeq	vertex.h	/^  inline size_t decodeOutNghSparseSeq(long i, uintT o, F &f, G &g) {$/;"	f	struct:asymmetricVertex
+decodeOutNghSparseSeq	vertex.h	/^  inline size_t decodeOutNghSparseSeq(long i, uintT o, F &f, G &g) {$/;"	f	struct:symmetricVertex
+decodeWgh	byte-pd.h	/^  inline void decodeWgh(T t, uchar* edgeStart, const uintE &source,const uintT &degree, const bool par=true) {$/;"	f
+decodeWgh	byte.h	/^  inline void decodeWgh(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decodeWgh	byteRLE-pd.h	/^  inline void decodeWgh(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decodeWgh	byteRLE.h	/^  inline void decodeWgh(T t, uchar* edgeStart, const uintE &source, const uintT &degree, const bool par=true) {$/;"	f
+decodeWgh	nibble-pd.h	/^  inline void decodeWgh(T t, uchar* edgeStart, const uintE &source,const uintT &degree, const bool par=true) {$/;"	f
+decodeWgh	nibble.h	/^  inline void decodeWgh(T t, uchar* edgeStart, const uintE &source,const uintT &degree, const bool par=true) {$/;"	f
+decode_compressed	compressedVertex.h	/^namespace decode_compressed {$/;"	n
+decode_first_edge	nibble-pd.h	/^inline uintE decode_first_edge(uchar* &start, long* location, uintE source) {$/;"	f
+decode_first_edge	nibble.h	/^inline uintE decode_first_edge(uchar* &start, long* location, uintE source) {$/;"	f
+decode_next_edge	nibble-pd.h	/^inline uintE decode_next_edge(uchar* &start, long* location) {$/;"	f
+decode_next_edge	nibble.h	/^inline uintE decode_next_edge(uchar* &start, long* location) {$/;"	f
+decode_uncompressed	vertex.h	/^namespace decode_uncompressed {$/;"	n
+decode_val_nibblecode	nibble-pd.h	43;"	d
+decode_val_nibblecode	nibble.h	41;"	d
+decompress_f	bucketing/KCoreSerial.C	/^  decompress_f(intT* _deg, intT* _pos, intT* _vert, intT* _bin) : deg(_deg), pos(_pos), vert(_vert), bin(_bin) {}$/;"	f	struct:decompress_f
+decompress_f	bucketing/KCoreSerial.C	/^struct decompress_f {$/;"	s	file:
+decreasing	bucketing/bucket.h	/^  decreasing,$/;"	e	enum:bucket_order
+deg	bucketing/KCoreSerial.C	/^  intT* deg;$/;"	m	struct:decompress_f	file:
+degree	compressedVertex.h	/^  uintT degree;$/;"	m	struct:compressedSymmetricVertex
+degree	vertex.h	/^  uintT degree;$/;"	m	struct:symmetricVertex
+del	IO.h	/^  void del() {free(Chars); free(Strings);}$/;"	f	struct:words
+del	bucketing/dyn_arr.h	/^  void del() {$/;"	f	struct:dyn_arr
+del	bucketing/histogram.h	/^    void del() {$/;"	f	struct:pbbs::hist_table
+del	compressedVertex.h	/^  void del() {}$/;"	f	struct:compressedAsymmetricVertex
+del	compressedVertex.h	/^  void del() {}$/;"	f	struct:compressedSymmetricVertex
+del	graph.h	/^  void del() {$/;"	f	struct:Compressed_Mem
+del	graph.h	/^  void del() {$/;"	f	struct:Uncompressed_Mem
+del	graph.h	/^  void del() {$/;"	f	struct:graph
+del	localAlg/sparseSet.h	/^  void del() {$/;"	f	class:sparseAdditiveSet
+del	utils.h	/^  void del() {free(A);}$/;"	f	struct:_seq
+del	vertex.h	/^  void del() {free(inNeighbors); free(outNeighbors);}$/;"	f	struct:asymmetricVertex
+del	vertex.h	/^  void del() {free(neighbors); }$/;"	f	struct:symmetricVertex
+del	vertexSubset.h	/^  void del() {$/;"	f	struct:vertexSubsetData
+delete_array	utils.h	/^  void delete_array(E* A, size_t n) {$/;"	f	namespace:pbbs
+dense	vertexSubset.h	/^  bool dense() { return isDense; }$/;"	f	struct:vertexSubsetData
+denseForwardT	compressedVertex.h	/^  denseForwardT(F &_f, G &_g) : f(_f), g(_g) {}$/;"	f	struct:decode_compressed::denseForwardT
+denseForwardT	compressedVertex.h	/^  struct denseForwardT {$/;"	s	namespace:decode_compressed
+denseT	compressedVertex.h	/^  denseT(F &_f, G &_g, VS& _vs) : f(_f), g(_g), vs(_vs) {}$/;"	f	struct:decode_compressed::denseT
+denseT	compressedVertex.h	/^  struct denseT {$/;"	s	namespace:decode_compressed
+dense_forward	ligra.h	/^const flags dense_forward = 8;$/;"	v
+dense_parallel	ligra.h	/^const flags dense_parallel = 16;$/;"	v
+diPair	localAlg/sweep.h	/^typedef pair<double,intT> diPair;$/;"	t
+dists	bucketing/DeltaStepping.C	/^  array_imap<uintE> dists;$/;"	m	struct:Visit_F	file:
+dyn_arr	bucketing/dyn_arr.h	/^  dyn_arr() : A(NULL), size(0), capacity(0), alloc(false) {}$/;"	f	struct:dyn_arr
+dyn_arr	bucketing/dyn_arr.h	/^  dyn_arr(E* _A, long _size, long _capacity, bool _alloc) :$/;"	f	struct:dyn_arr
+dyn_arr	bucketing/dyn_arr.h	/^  dyn_arr(size_t s) : size(0), capacity(s), alloc(true) { A = newA(E, s); }$/;"	f	struct:dyn_arr
+dyn_arr	bucketing/dyn_arr.h	/^struct dyn_arr {$/;"	s
+e	index_map.h	/^  const Iterator e;$/;"	m	struct:iter_imap
+e	index_map.h	/^  size_t s, e;$/;"	m	struct:in_imap
+e	index_map.h	/^  size_t s, e;$/;"	m	struct:out_imap
+e	localAlg/sparseSet.h	/^    kvPair e; notEmptyF(kvPair _e) : e(_e) {} $/;"	m	struct:sparseAdditiveSet::notEmptyF
+eBits	blockRadixSort.h	/^      eBits(long bits, long offset, F f): _mask((1<<bits)-1), $/;"	f	struct:intSort::eBits
+eBits	blockRadixSort.h	/^    struct eBits {$/;"	s	namespace:intSort
+eatEdge	byte-pd.h	/^inline uintE eatEdge(uchar* &start) {$/;"	f
+eatEdge	byte.h	/^inline uintE eatEdge(uchar* &start) {$/;"	f
+eatEdge	byteRLE-pd.h	/^inline uintE eatEdge(uchar* &start) {$/;"	f
+eatEdge	byteRLE.h	/^inline uintE eatEdge(uchar* &start) {$/;"	f
+eatFirstEdge	byte-pd.h	/^inline intE eatFirstEdge(uchar* &start, uintE source) {$/;"	f
+eatFirstEdge	byte.h	/^inline intE eatFirstEdge(uchar* &start, uintE source) {$/;"	f
+eatFirstEdge	byteRLE-pd.h	/^inline intE eatFirstEdge(uchar* &start, uintE source) {$/;"	f
+eatFirstEdge	byteRLE.h	/^inline intE eatFirstEdge(uchar* &start, uintE source) {$/;"	f
+eatWeight	byte-pd.h	/^inline intE eatWeight(uchar* &start) {$/;"	f
+eatWeight	byte.h	/^inline intE eatWeight(uchar* &start) {$/;"	f
+eatWeight	byteRLE-pd.h	/^inline intE eatWeight(uchar* &start) {$/;"	f
+eatWeight	byteRLE.h	/^inline intE eatWeight(uchar* &start) {$/;"	f
+ecc	eccentricity/FM-Ecc.C	/^  intE* ecc;$/;"	m	struct:Ecc_F	file:
+ecc	eccentricity/LogLog-Ecc.C	/^  intE* ecc;$/;"	m	struct:Ecc_F	file:
+ecc	eccentricity/kBFS-1Phase-Ecc.C	/^  uintE* ecc;$/;"	m	struct:Ecc_F	file:
+ecc	eccentricity/kBFS-Ecc.C	/^  uintE* ecc;$/;"	m	struct:Ecc_F	file:
+ecc	eccentricity/kBFS-Exact.C	/^  uintE* ecc;$/;"	m	struct:Ecc_F	file:
+edgeLessPair	localAlg/sweep.h	/^struct edgeLessPair{$/;"	s
+edgeMap	ligra.h	/^vertexSubset edgeMap(graph<vertex> GA, VS& vs, F f,$/;"	f
+edgeMapCount	bucketing/edgeMapReduce.h	/^  inline vertexSubsetData<O> edgeMapCount(VS& vs, Apply& apply_f) {$/;"	f	struct:EdgeMap
+edgeMapData	ligra.h	/^vertexSubsetData<data> edgeMapData(graph<vertex>& GA, VS &vs, F f,$/;"	f
+edgeMapDense	ligra.h	/^vertexSubsetData<data> edgeMapDense(graph<vertex> GA, VS& vertexSubset, F &f, const flags fl) {$/;"	f
+edgeMapDenseForward	ligra.h	/^vertexSubsetData<data> edgeMapDenseForward(graph<vertex> GA, VS& vertexSubset, F &f, const flags fl) {$/;"	f
+edgeMapFilter	ligra.h	/^vertexSubsetData<uintE> edgeMapFilter(graph<vertex>& GA, vertexSubset& vs, P& p, const flags& fl=0) {$/;"	f
+edgeMapInduced	bucketing/edgeMapReduce.h	/^inline vertexSubsetData<E> edgeMapInduced(graph<vertex>& GA, VS& V, F& f) {$/;"	f
+edgeMapReduce	bucketing/edgeMapReduce.h	/^  inline vertexSubsetData<O> edgeMapReduce(VS& vs, Map& map_f, Reduce& reduce_f, Apply& apply_f) {$/;"	f	struct:EdgeMap
+edgeMapSparse	ligra.h	/^vertexSubsetData<data> edgeMapSparse(graph<vertex>& GA, vertex* frontierVertices, VS& indices,$/;"	f
+edgeMapSparse_no_filter	ligra.h	/^vertexSubsetData<data> edgeMapSparse_no_filter(graph<vertex>& GA,$/;"	f
+edgesCrossing	localAlg/sweep.h	/^  long sizeS, volS, vol, edgesCrossing;$/;"	m	struct:sweepObject
+elms	bucketing/SetCover.C	/^  uintE* elms;$/;"	m	struct:Visit_Elms	file:
+empty	bucketing/sequentialHT.h	/^  T empty;$/;"	m	class:sequentialHT
+empty	localAlg/sparseSet.h	/^  kvPair empty;$/;"	m	class:sparseAdditiveSet
+empty	utils.h	/^  struct empty {};$/;"	s	namespace:pbbs
+encodeGraphFromFile	encoder.C	/^void encodeGraphFromFile(char* fname, bool isSymmetric, char* outFile, bool binary) {$/;"	f
+encodeWeightedGraphFromFile	encoder.C	/^void encodeWeightedGraphFromFile$/;"	f
+encode_nibbleval	nibble-pd.h	/^long encode_nibbleval(uchar* start, long offset, long val) {$/;"	f
+encode_nibbleval	nibble.h	/^long encode_nibbleval(uchar* start, long offset, long val) {$/;"	f
+entries	localAlg/sparseSet.h	/^  _seq<kvPair> entries() {$/;"	f	class:sparseAdditiveSet
+entries	localAlg/sparseSet.h	/^  _seq<kvPair> entries(F f) {$/;"	f	class:sparseAdditiveSet
+epsilon	bucketing/SetCover.C	/^constexpr double epsilon = 0.01;$/;"	v
+epsilon	localAlg/ACL-Sync-Local-Opt.C	/^  double epsilon;$/;"	m	struct:activeF	file:
+epsilon	localAlg/ACL-Sync-Local.C	/^  double epsilon;$/;"	m	struct:activeF	file:
+epsilon	localAlg/Nibble-Parallel.C	/^  double epsilon;$/;"	m	struct:activeF	file:
+epsilon2	PageRankDelta.C	/^  double damping, addedConstant, one_over_n, epsilon2;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+epsilon2	PageRankDelta.C	/^  double damping, epsilon2;$/;"	m	struct:PR_Vertex_F	file:
+equalPair	localAlg/HeatKernel-Serial.C	/^class equalPair {$/;"	c	file:
+error	CF.C	/^  double *latent_curr, *error;$/;"	m	struct:CF_Vertex_F	file:
+error	CF.C	/^  double* latent_curr, *error;$/;"	m	struct:CF_Edge_F	file:
+exists	maybe.h	/^  bool exists;$/;"	m	struct:Maybe
+extractSecond	localAlg/sweep.h	/^struct extractSecond {$/;"	s
+f	compressedVertex.h	/^    F f;$/;"	m	struct:decode_compressed::denseForwardT
+f	compressedVertex.h	/^    F f;$/;"	m	struct:decode_compressed::denseT
+f	compressedVertex.h	/^    F f;$/;"	m	struct:decode_compressed::sparseT
+f	compressedVertex.h	/^    F f;$/;"	m	struct:decode_compressed::sparseTCount
+f	compressedVertex.h	/^    F f;$/;"	m	struct:decode_compressed::sparseTE
+f	compressedVertex.h	/^    F f;$/;"	m	struct:decode_compressed::sparseTSeq
+f	utils.h	/^    F f;$/;"	m	struct:sequence::getAF
+f	utils.h	/^  F f;$/;"	m	struct:EdgeMap_F
+fType	BC.C	/^typedef double fType;$/;"	t	file:
+fetch_and_add	utils.h	/^  inline E fetch_and_add(E *a, EV b) {$/;"	f	namespace:pbbs
+filter	utils.h	/^  intT filter(ET* In, ET* Out, bool* Fl, intT n, PRED p) {$/;"	f	namespace:sequence
+filter	utils.h	/^  intT filter(ET* In, ET* Out, intT n, PRED p) {$/;"	f	namespace:sequence
+filter_serial	sequence.h	/^  size_t filter_serial(T* In, T* Out, size_t n, PRED p) {$/;"	f	namespace:pbbs
+filterf	sequence.h	/^   size_t filterf(T* In, T* Out, size_t n, PRED p) {$/;"	f	namespace:pbbs
+filterf_and_clear	sequence.h	/^   size_t filterf_and_clear(T* In, T* Out, size_t n, PRED p, T& empty, size_t* Sums) {$/;"	f	namespace:pbbs
+find	bucketing/sequentialHT.h	/^  inline T find(K& v) {$/;"	f	class:sequentialHT
+find	localAlg/sparseSet.h	/^  kvPair find(uintE v) {$/;"	f	class:sparseAdditiveSet
+firstF	blockRadixSort.h	/^  struct firstF {E1 operator() (std::pair<E1,E2> a) {return a.first;} };$/;"	s
+firstIndex	bucketing/sequentialHT.h	/^  inline size_t firstIndex(K v) {return toRange(pbbs::hash64(v));}$/;"	f	class:sequentialHT
+firstIndex	localAlg/sparseSet.h	/^  inline uintT firstIndex(uintT v) {return hashToRange(hashInt(v));}$/;"	f	class:sparseAdditiveSet
+fl_debug	utils.h	/^  const flags fl_debug = 2;$/;"	m	namespace:pbbs
+fl_scan_inclusive	sequence.h	/^  const flags fl_scan_inclusive = (1 << 4);$/;"	m	namespace:pbbs
+fl_sequential	utils.h	/^  const flags fl_sequential = 1;$/;"	m	namespace:pbbs
+fl_time	utils.h	/^  const flags fl_time = 4;$/;"	m	namespace:pbbs
+flags	MIS.C	/^  int* flags;$/;"	m	struct:MIS_Filter	file:
+flags	MIS.C	/^  int* flags;$/;"	m	struct:MIS_Update	file:
+flags	graph.h	/^  uintE* flags;$/;"	m	struct:graph
+flags	ligra.h	/^typedef uint32_t flags;$/;"	t
+flags	utils.h	/^  typedef uint32_t flags;$/;"	t	namespace:pbbs
+flipEdges	compressedVertex.h	/^  void flipEdges() { swap(inNeighbors,outNeighbors);$/;"	f	struct:compressedAsymmetricVertex
+flipEdges	compressedVertex.h	/^  void flipEdges() {}$/;"	f	struct:compressedSymmetricVertex
+flipEdges	vertex.h	/^  void flipEdges() { swap(inNeighbors,outNeighbors); swap(inDegree,outDegree); }$/;"	f	struct:asymmetricVertex
+flipEdges	vertex.h	/^  void flipEdges() {}$/;"	f	struct:symmetricVertex
+g	compressedVertex.h	/^    G g;$/;"	m	struct:decode_compressed::denseForwardT
+g	compressedVertex.h	/^    G g;$/;"	m	struct:decode_compressed::denseT
+g	compressedVertex.h	/^    G g;$/;"	m	struct:decode_compressed::sparseT
+g	compressedVertex.h	/^    G g;$/;"	m	struct:decode_compressed::sparseTE
+g	compressedVertex.h	/^    G g;$/;"	m	struct:decode_compressed::sparseTSeq
+gapCost	encoder.C	/^void gapCost(uintT* offsets, uintE* edges, long n, long m, uintE* Degrees){$/;"	f
+getA	utils.h	/^    getA(ET* AA) : A(AA) {}$/;"	f	struct:sequence::getA
+getA	utils.h	/^  struct getA {$/;"	s	namespace:sequence
+getAF	utils.h	/^    getAF(IT* AA, F ff) : A(AA), f(ff) {}$/;"	f	struct:sequence::getAF
+getAF	utils.h	/^  struct getAF {$/;"	s	namespace:sequence
+getArgument	parseCommandLine.h	/^  char* getArgument(int i) {$/;"	f	struct:commandLine
+getDegree	eccentricity/CLRSTV.C	/^  getDegree(vertex* VV) : V(VV) {}$/;"	f	struct:getDegree
+getDegree	eccentricity/CLRSTV.C	/^struct getDegree {$/;"	s	file:
+getDegree	eccentricity/RV.C	/^  getDegree(vertex* VV) : V(VV) {}$/;"	f	struct:getDegree
+getDegree	eccentricity/RV.C	/^struct getDegree {$/;"	s	file:
+getDegree	eccentricity/Simple-Approx-Ecc.C	/^  getDegree(vertex* VV) : V(VV) {}$/;"	f	struct:getDegree
+getDegree	eccentricity/Simple-Approx-Ecc.C	/^struct getDegree {$/;"	s	file:
+getDegree	eccentricity/TK.C	/^  getDegree(vertex* VV) : V(VV) {}$/;"	f	struct:getDegree
+getDegree	eccentricity/TK.C	/^struct getDegree {$/;"	s	file:
+getDegree	eccentricity/kBFS-1Phase-Ecc.C	/^  getDegree(vertex* VV) : V(VV) {}$/;"	f	struct:getDegree
+getDegree	eccentricity/kBFS-1Phase-Ecc.C	/^struct getDegree {$/;"	s	file:
+getDegree	eccentricity/kBFS-Ecc.C	/^  getDegree(vertex* VV) : V(VV) {}$/;"	f	struct:getDegree
+getDegree	eccentricity/kBFS-Ecc.C	/^struct getDegree {$/;"	s	file:
+getFirst	IO.h	/^struct getFirst {uintE operator() (pair<uintE,E> a) {return a.first;} };$/;"	s
+getInDegree	compressedVertex.h	/^  uintT getInDegree() { return degree; }$/;"	f	struct:compressedSymmetricVertex
+getInDegree	compressedVertex.h	/^  uintT getInDegree() { return inDegree; }$/;"	f	struct:compressedAsymmetricVertex
+getInDegree	vertex.h	/^  uintT getInDegree() { return degree; }$/;"	f	struct:symmetricVertex
+getInDegree	vertex.h	/^  uintT getInDegree() { return inDegree; }$/;"	f	struct:asymmetricVertex
+getInNeighbor	compressedVertex.h	/^  intT getInNeighbor(intT j) { return -1; } \/\/should not be called$/;"	f	struct:compressedAsymmetricVertex
+getInNeighbor	compressedVertex.h	/^  intT getInNeighbor(intT j) { return -1; } \/\/should not be called$/;"	f	struct:compressedSymmetricVertex
+getInNeighbor	vertex.h	/^  intE getInNeighbor(intT j) { return neighbors[2*j]; }$/;"	f	struct:symmetricVertex
+getInNeighbor	vertex.h	/^  intE getInNeighbor(uintT j) { return inNeighbors[2*j]; }$/;"	f	struct:asymmetricVertex
+getInNeighbor	vertex.h	/^  uintE getInNeighbor(uintT j) { return inNeighbors[j]; }$/;"	f	struct:asymmetricVertex
+getInNeighbor	vertex.h	/^  uintE getInNeighbor(uintT j) { return neighbors[j]; }$/;"	f	struct:symmetricVertex
+getInNeighbors	compressedVertex.h	/^  uchar* getInNeighbors() { return inNeighbors; }$/;"	f	struct:compressedAsymmetricVertex
+getInNeighbors	compressedVertex.h	/^  uchar* getInNeighbors() { return neighbors; }$/;"	f	struct:compressedSymmetricVertex
+getInNeighbors	vertex.h	/^  intE* getInNeighbors () { return inNeighbors; }$/;"	f	struct:asymmetricVertex
+getInNeighbors	vertex.h	/^  intE* getInNeighbors () { return neighbors; }$/;"	f	struct:symmetricVertex
+getInNeighbors	vertex.h	/^  uintE* getInNeighbors () { return inNeighbors; }$/;"	f	struct:asymmetricVertex
+getInNeighbors	vertex.h	/^  uintE* getInNeighbors () { return neighbors; }$/;"	f	struct:symmetricVertex
+getInWeight	vertex.h	/^  intE getInWeight(intT j) { return neighbors[2*j+1]; }$/;"	f	struct:symmetricVertex
+getInWeight	vertex.h	/^  intE getInWeight(uintT j) { return inNeighbors[2*j+1]; }$/;"	f	struct:asymmetricVertex
+getOption	parseCommandLine.h	/^  bool getOption(string option) {$/;"	f	struct:commandLine
+getOptionDoubleValue	parseCommandLine.h	/^  double getOptionDoubleValue(string option, double defaultValue) {$/;"	f	struct:commandLine
+getOptionIntValue	parseCommandLine.h	/^  int getOptionIntValue(string option, int defaultValue) {$/;"	f	struct:commandLine
+getOptionLongValue	parseCommandLine.h	/^  long getOptionLongValue(string option, long defaultValue) {$/;"	f	struct:commandLine
+getOptionValue	parseCommandLine.h	/^  char* getOptionValue(string option) {$/;"	f	struct:commandLine
+getOptionValue	parseCommandLine.h	/^  string getOptionValue(string option, string defaultValue) {$/;"	f	struct:commandLine
+getOutDegree	compressedVertex.h	/^  uintT getOutDegree() { return degree; }$/;"	f	struct:compressedSymmetricVertex
+getOutDegree	compressedVertex.h	/^  uintT getOutDegree() { return outDegree; }$/;"	f	struct:compressedAsymmetricVertex
+getOutDegree	vertex.h	/^  uintT getOutDegree() { return degree; }$/;"	f	struct:symmetricVertex
+getOutDegree	vertex.h	/^  uintT getOutDegree() { return outDegree; }$/;"	f	struct:asymmetricVertex
+getOutNeighbor	compressedVertex.h	/^  intT getOutNeighbor(intT j) { return -1; } \/\/should not be called$/;"	f	struct:compressedAsymmetricVertex
+getOutNeighbor	compressedVertex.h	/^  intT getOutNeighbor(intT j) { return -1; } \/\/should not be called$/;"	f	struct:compressedSymmetricVertex
+getOutNeighbor	vertex.h	/^  intE getOutNeighbor(intT j) { return neighbors[2*j]; }$/;"	f	struct:symmetricVertex
+getOutNeighbor	vertex.h	/^  intE getOutNeighbor(uintT j) { return outNeighbors[2*j]; }$/;"	f	struct:asymmetricVertex
+getOutNeighbor	vertex.h	/^  uintE getOutNeighbor(uintT j) { return neighbors[j]; }$/;"	f	struct:symmetricVertex
+getOutNeighbor	vertex.h	/^  uintE getOutNeighbor(uintT j) { return outNeighbors[j]; }$/;"	f	struct:asymmetricVertex
+getOutNeighbors	compressedVertex.h	/^  uchar* getOutNeighbors() { return neighbors; }$/;"	f	struct:compressedSymmetricVertex
+getOutNeighbors	compressedVertex.h	/^  uchar* getOutNeighbors() { return outNeighbors; }$/;"	f	struct:compressedAsymmetricVertex
+getOutNeighbors	vertex.h	/^  intE* getOutNeighbors () { return neighbors; }$/;"	f	struct:symmetricVertex
+getOutNeighbors	vertex.h	/^  intE* getOutNeighbors () { return outNeighbors; }$/;"	f	struct:asymmetricVertex
+getOutNeighbors	vertex.h	/^  uintE* getOutNeighbors () { return neighbors; }$/;"	f	struct:symmetricVertex
+getOutNeighbors	vertex.h	/^  uintE* getOutNeighbors () { return outNeighbors; }$/;"	f	struct:asymmetricVertex
+getOutWeight	vertex.h	/^  intE getOutWeight(intT j) { return neighbors[2*j+1]; }$/;"	f	struct:symmetricVertex
+getOutWeight	vertex.h	/^  intE getOutWeight(uintT j) { return outNeighbors[2*j+1]; }$/;"	f	struct:asymmetricVertex
+getT	maybe.h	/^inline T getT(const Maybe<T>& m) {$/;"	f
+getTime	gettime.h	/^  double getTime() {$/;"	f	struct:timer
+getWorkers	parallel.h	/^static int getWorkers() { return 1; }$/;"	f
+getWorkers	parallel.h	/^static int getWorkers() { return omp_get_max_threads(); }$/;"	f
+getWorkers	parallel.h	/^static int getWorkers() {$/;"	f
+get_bucket	bucketing/bucket.h	/^    inline bucket_dest get_bucket(const bucket_id& prev,$/;"	f	struct:buckets
+get_cur_bucket	bucketing/bucket.h	/^    inline bucket get_cur_bucket() {$/;"	f	struct:buckets
+get_cur_bucket_num	bucketing/bucket.h	/^    size_t get_cur_bucket_num() const {$/;"	f	struct:buckets
+get_emdense_forward_gen	edgeMap_utils.h	/^auto get_emdense_forward_gen(tuple<bool, data>* next) {$/;"	f
+get_emdense_forward_nooutput_gen	edgeMap_utils.h	/^auto get_emdense_forward_nooutput_gen() {$/;"	f
+get_emdense_gen	edgeMap_utils.h	/^auto get_emdense_gen(tuple<bool, data>* next) {$/;"	f
+get_emdense_nooutput_gen	edgeMap_utils.h	/^auto get_emdense_nooutput_gen() {$/;"	f
+get_emsparse_gen	edgeMap_utils.h	/^auto get_emsparse_gen(tuple<uintE, data>* outEdges) {$/;"	f
+get_emsparse_no_filter_gen	edgeMap_utils.h	/^auto get_emsparse_no_filter_gen(tuple<uintE, data>* outEdges) {$/;"	f
+get_emsparse_nooutput_gen	edgeMap_utils.h	/^auto get_emsparse_nooutput_gen() {$/;"	f
+get_fn_repr	vertexSubset.h	/^  auto get_fn_repr() const {$/;"	f	struct:vertexSubsetData
+granular_for	utils.h	379;"	d
+graph	graph.h	/^graph(vertex* _V, long _n, long _m, Deletable* _D) : V(_V), n(_n), m(_m),$/;"	f	struct:graph
+graph	graph.h	/^graph(vertex* _V, long _n, long _m, Deletable* _D, uintE* _flags) : V(_V),$/;"	f	struct:graph
+graph	graph.h	/^struct graph {$/;"	s
+hash32	utils.h	/^  uint32_t hash32(uint32_t a) {$/;"	f	namespace:pbbs
+hash64	utils.h	/^  uint64_t hash64(uint64_t u )$/;"	f	namespace:pbbs
+hashInt	utils.h	/^inline uint hashInt(uint a) {$/;"	f
+hashInt	utils.h	/^inline ulong hashInt(ulong a) {$/;"	f
+hashPair	localAlg/HeatKernel-Serial.C	/^class hashPair {$/;"	c	file:
+hashToRange	localAlg/sparseSet.h	/^  inline uintT hashToRange(uintT h) {return h & mask;}$/;"	f	class:sparseAdditiveSet
+hist_table	bucketing/histogram.h	/^    hist_table() {}$/;"	f	struct:pbbs::hist_table
+hist_table	bucketing/histogram.h	/^    hist_table(KV _empty, size_t _size) : empty(_empty), size(_size) {$/;"	f	struct:pbbs::hist_table
+hist_table	bucketing/histogram.h	/^  struct hist_table {$/;"	s	namespace:pbbs
+histogram	bucketing/histogram.h	/^  inline pair<size_t, tuple<E, E>*> histogram(A& get_elm, size_t n, F& f, hist_table<E, E>& ht, Timer& t) {$/;"	f	namespace:pbbs
+histogram_reduce	bucketing/histogram.h	/^  inline pair<size_t, O*> histogram_reduce(A& get_elm, B& get_key, size_t n, Reduce& reduce_f, Apply& apply_f, hist_table<K, V>& ht) {$/;"	f	namespace:pbbs
+ht	bucketing/edgeMapReduce.h	/^  pbbs::hist_table<K, V> ht;$/;"	m	struct:EdgeMap
+iSort	blockRadixSort.h	/^  void iSort(E *A, long n, long m, Func f) { $/;"	f	namespace:intSort
+iSort	blockRadixSort.h	/^  void iSort(E *A, long n, long m, char* s, Func f) { $/;"	f	namespace:intSort
+iSort	blockRadixSort.h	/^  void iSort(E *A, oint* bucketOffsets, long n, long m, F f) {$/;"	f	namespace:intSort
+iSort	blockRadixSort.h	/^  void iSort(E *A, oint* bucketOffsets, long n, long m, bool bottomUp, $/;"	f	namespace:intSort
+iSort	blockRadixSort.h	/^  void iSort(E *A, oint* bucketOffsets, long n, long m, bool bottomUp, F f) {$/;"	f	namespace:intSort
+iSortBottomUp	blockRadixSort.h	/^  void iSortBottomUp(E *A, long n, long m, F f) {$/;"	f	namespace:intSort
+iSortSpace	blockRadixSort.h	/^  long iSortSpace(long n) {$/;"	f	namespace:intSort
+iSortX	blockRadixSort.h	/^  void iSortX(E *A, oint* bucketOffsets, long n, long m, bool bottomUp, $/;"	f	namespace:intSort
+id	bucketing/bucket.h	/^  size_t id;$/;"	m	struct:bucket
+identifiers	bucketing/bucket.h	/^  vertexSubset identifiers;$/;"	m	struct:bucket
+identityF	utils.h	/^struct identityF { E operator() (const E& x) {return x;}};$/;"	s
+inDegree	compressedVertex.h	/^  uintT inDegree;$/;"	m	struct:compressedAsymmetricVertex
+inDegree	vertex.h	/^  uintT inDegree;$/;"	m	struct:asymmetricVertex
+inEdges	graph.h	/^  void* allocatedInplace, * inEdges;$/;"	m	struct:Uncompressed_Mem
+inNeighbors	compressedVertex.h	/^  uchar* inNeighbors;$/;"	m	struct:compressedAsymmetricVertex
+inNeighbors	vertex.h	/^  uintE* inNeighbors, *outNeighbors;$/;"	m	struct:asymmetricVertex
+in_imap	index_map.h	/^  in_imap(size_t n, F f) : f(f), s(0), e(n) {};$/;"	f	struct:in_imap
+in_imap	index_map.h	/^  in_imap(size_t s, size_t e, F f) : f(f), s(s), e(e) {};$/;"	f	struct:in_imap
+in_imap	index_map.h	/^struct in_imap {$/;"	s
+increasing	bucketing/bucket.h	/^  increasing$/;"	e	enum:bucket_order
+incrementIndex	bucketing/sequentialHT.h	/^  inline size_t incrementIndex(size_t h) {return toRange(h+1);}$/;"	f	class:sequentialHT
+incrementIndex	localAlg/sparseSet.h	/^  inline uintT incrementIndex(uintT h) {return hashToRange(h+1);}$/;"	f	class:sparseAdditiveSet
+initF	Triangle.C	/^  initF(vertex* _V, long* _counts) : V(_V), counts(_counts) {}$/;"	f	struct:initF
+initF	Triangle.C	/^struct initF { \/\/for vertexMap to initial counts and sort neighbors for merging$/;"	s	file:
+insert	bucketing/dyn_arr.h	/^  inline void insert(E val, size_t pos) {$/;"	f	struct:dyn_arr
+insert	localAlg/sparseSet.h	/^  bool insert(kvPair v) {$/;"	f	class:sparseAdditiveSet
+insertAdd	bucketing/sequentialHT.h	/^  inline void insertAdd(K& vKey) {$/;"	f	class:sequentialHT
+insertAdd	bucketing/sequentialHT.h	/^  inline void insertAdd(T& v) {$/;"	f	class:sequentialHT
+insertF	bucketing/sequentialHT.h	/^  inline void insertF(tuple<K, M>& v, F& f) {$/;"	f	class:sequentialHT
+insert_in_bucket	bucketing/bucket.h	/^    inline void insert_in_bucket(size_t b, intT val) {$/;"	f	struct:buckets
+insertionSort	quickSort.h	/^void insertionSort(E* A, intT n, BinPred f) {$/;"	f
+intE	parallel.h	/^typedef int intE;$/;"	t
+intE	parallel.h	/^typedef long intE;$/;"	t
+intEPair	byte-pd.h	/^typedef pair<uintE,intE> intEPair;$/;"	t
+intEPair	byte.h	/^typedef pair<uintE,intE> intEPair;$/;"	t
+intEPair	byteRLE-pd.h	/^typedef pair<uintE,intE> intEPair;$/;"	t
+intEPair	byteRLE.h	/^typedef pair<uintE,intE> intEPair;$/;"	t
+intEPair	nibble-pd.h	/^typedef pair<uintE,intE> intEPair;$/;"	t
+intEPair	nibble.h	/^typedef pair<uintE,intE> intEPair;$/;"	t
+intLT	Triangle.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	s	file:
+intLT	localAlg/ACL-Sync-Local-Opt.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	s	file:
+intLT	localAlg/ACL-Sync-Local.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	s	file:
+intLT	localAlg/HeatKernel-Parallel.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	s	file:
+intLT	localAlg/HeatKernel-Randomized-Parallel.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	s	file:
+intPair	IO.h	/^typedef pair<uintE,uintE> intPair;$/;"	t
+intPair	eccentricity/CLRSTV.C	/^typedef pair<uintE,uintE> intPair;$/;"	t	file:
+intPair	eccentricity/RV.C	/^typedef pair<uintE,uintE> intPair;$/;"	t	file:
+intPair	eccentricity/Simple-Approx-Ecc.C	/^typedef pair<uintE,uintE> intPair;$/;"	t	file:
+intPair	eccentricity/TK.C	/^typedef pair<uintE,uintE> intPair;$/;"	t	file:
+intPair	eccentricity/kBFS-1Phase-Ecc.C	/^typedef pair<uintE,uintE> intPair;$/;"	t	file:
+intPair	eccentricity/kBFS-Ecc.C	/^typedef pair<uintE,uintE> intPair;$/;"	t	file:
+intSort	blockRadixSort.h	/^namespace intSort {$/;"	n
+intT	parallel.h	/^typedef int intT;$/;"	t
+intT	parallel.h	/^typedef long intT;$/;"	t
+intTriple	IO.h	/^typedef pair<uintE, pair<uintE,intE> > intTriple;$/;"	t
+intTriple2	encoder.C	/^typedef pair<pair<uintE,uintE> ,uintE > intTriple2;$/;"	t	file:
+integerSort	blockRadixSort.h	/^static void integerSort(uintT *A, long n) {$/;"	f
+integerSort	blockRadixSort.h	/^static void integerSort(uintT *A, long n, char* s) {$/;"	f
+integerSort	blockRadixSort.h	/^void integerSort(pair<uintT,T> *A, long n) {$/;"	f
+integerSort	blockRadixSort.h	/^void integerSort(pair<uintT,T> *A, long n, char* s) {$/;"	f
+inverseNumPaths	BC.C	/^  fType* Dependencies, *inverseNumPaths;$/;"	m	struct:BC_Back_Vertex_F	file:
+isDense	vertexSubset.h	/^  bool isDense;$/;"	m	struct:vertexSubsetData
+isEmpty	vertexSubset.h	/^  bool isEmpty() { return m==0; }$/;"	f	struct:vertexSubsetData
+isIn	vertexSubset.h	/^  inline bool isIn(const uintE& v) const { return d[v]; }$/;"	f	struct:vertexSubsetData
+isIn	vertexSubset.h	/^  inline bool isIn(const uintE& v) const { return std::get<0>(d[v]); }$/;"	f	struct:vertexSubsetData
+isSome	maybe.h	/^inline bool isSome(const Maybe<T>& m) {$/;"	f
+isSpace	IO.h	/^inline bool isSpace(char c) {$/;"	f
+iter_imap	index_map.h	/^  iter_imap() {}$/;"	f	struct:iter_imap
+iter_imap	index_map.h	/^  iter_imap(Iterator s, Iterator e) : s(s), e(e) {};$/;"	f	struct:iter_imap
+iter_imap	index_map.h	/^  iter_imap(const iter_imap& b) : s(b.s), e(b.e) {}$/;"	f	struct:iter_imap
+iter_imap	index_map.h	/^struct iter_imap {$/;"	s
+ithData	vertexSubset.h	/^  inline data& ithData(const uintE& v) const { return std::get<1>(d[v]); }$/;"	f	struct:vertexSubsetData
+ithData	vertexSubset.h	/^  inline pbbs::empty ithData(const uintE& v) const { return pbbs::empty(); }$/;"	f	struct:vertexSubsetData
+k	KCore.C	/^  uintE k;$/;"	m	struct:Deg_AtLeast_K	file:
+k	KCore.C	/^  uintE k;$/;"	m	struct:Deg_LessThan_K	file:
+k	compressedVertex.h	/^    size_t& k;$/;"	m	struct:decode_compressed::sparseTSeq
+kvPair	localAlg/sparseSet.h	/^  typedef pair<uintE,E> kvPair;$/;"	t	class:sparseAdditiveSet
+label	BFSCC.C	/^  uintE label;$/;"	m	struct:BFS_F	file:
+label	eccentricity/CCBFS.h	/^  intE label;$/;"	m	struct:CCBFS_F
+lambda	CF.C	/^  double step, lambda;$/;"	m	struct:CF_Vertex_F	file:
+lastTime	gettime.h	/^  double lastTime;$/;"	m	struct:timer
+latent_curr	CF.C	/^  double *latent_curr, *error;$/;"	m	struct:CF_Vertex_F	file:
+latent_curr	CF.C	/^  double* latent_curr, *error;$/;"	m	struct:CF_Edge_F	file:
+length	eccentricity/FM-Ecc.C	/^  long length;$/;"	m	struct:Ecc_F	file:
+length	eccentricity/FM-Ecc.C	/^  long length;$/;"	m	struct:Ecc_Vertex_F	file:
+length	eccentricity/LogLog-Ecc.C	/^  long length;$/;"	m	struct:Ecc_F	file:
+length	eccentricity/LogLog-Ecc.C	/^  long length;$/;"	m	struct:Ecc_Vertex_F	file:
+length	eccentricity/kBFS-1Phase-Ecc.C	/^  const long length;$/;"	m	struct:Ecc_F	file:
+length	eccentricity/kBFS-1Phase-Ecc.C	/^  const long length;$/;"	m	struct:Ecc_Vertex_F	file:
+length	eccentricity/kBFS-Ecc.C	/^  const long length;$/;"	m	struct:Ecc_F	file:
+length	eccentricity/kBFS-Ecc.C	/^  const long length;$/;"	m	struct:Ecc_Vertex_F	file:
+length	eccentricity/kBFS-Exact.C	/^  long length;$/;"	m	struct:Ecc_F	file:
+length	eccentricity/kBFS-Exact.C	/^  long length;$/;"	m	struct:Ecc_Vertex_F	file:
+linear_search	binary_search.h	/^  size_t linear_search(Sequence I, typename Sequence::T v, const F& less) {$/;"	f	namespace:pbbs
+loadFactor	localAlg/sparseSet.h	/^  float loadFactor;$/;"	m	class:sparseAdditiveSet
+log2RoundUp	localAlg/sparseSet.h	/^static int log2RoundUp(T i) {$/;"	f
+log2Up	blockRadixSort.h	/^static int log2Up(T i) {$/;"	f
+log2_up	utils.h	/^  static int log2_up(T i) {$/;"	f	namespace:pbbs
+logCost	encoder.C	/^void logCost(uintT* offsets, uintE* edges, long n, long m, uintE* Degrees){$/;"	f
+lower	eccentricity/Simple-Approx-Ecc.C	/^  uintE* lower;$/;"	m	struct:min_lower	file:
+lower	eccentricity/TK.C	/^  uintE* lower;$/;"	m	struct:min_lower	file:
+m	IO.h	/^  long m; \/\/ number of substrings$/;"	m	struct:words
+m	bucketing/sequentialHT.h	/^  size_t m;$/;"	m	class:sequentialHT
+m	graph.h	/^  long m;$/;"	m	struct:Uncompressed_Mem
+m	graph.h	/^  long m;$/;"	m	struct:graph
+m	localAlg/sparseSet.h	/^  uintT m;$/;"	m	class:sparseAdditiveSet
+m	vertexSubset.h	/^  size_t n, m;$/;"	m	struct:vertexSubsetData
+make_array_imap	index_map.h	/^array_imap<E> make_array_imap (E* A, size_t n) {$/;"	f
+make_buckets	bucketing/bucket.h	/^buckets<D> make_buckets(size_t n, D d, bucket_order order, size_t total_buckets=128) {$/;"	f
+make_in_imap	index_map.h	/^in_imap<E,F> make_in_imap (size_t n, F f) {$/;"	f
+make_iter_imap	index_map.h	/^iter_imap<Iterator> make_iter_imap (Iterator s, Iterator e) {$/;"	f
+make_out_imap	index_map.h	/^out_imap<E,F> make_out_imap (size_t n, F f) {$/;"	f
+map	localAlg/sparseSet.h	/^  void map(F f){ $/;"	f	class:sparseAdditiveSet
+mapIndex	localAlg/sparseSet.h	/^  void mapIndex(F f){ $/;"	f	class:sparseAdditiveSet
+mapReduce	utils.h	/^  OT mapReduce(IT* A, intT n, F f, G g) {$/;"	f	namespace:sequence
+mask	bucketing/sequentialHT.h	/^  intT mask;$/;"	m	class:sequentialHT
+mask	eccentricity/LogLog-Ecc.C	40;"	d	file:
+mask	localAlg/sparseSet.h	/^  intT mask;$/;"	m	class:sparseAdditiveSet
+maxF	utils.h	/^struct maxF { E operator() (const E& a, const E& b) const {return (a>b) ? a : b;}};$/;"	s
+maxFirstF	eccentricity/CLRSTV.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	s	file:
+maxFirstF	eccentricity/RV.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	s	file:
+maxFirstF	eccentricity/kBFS-1Phase-Ecc.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	s	file:
+maxFirstF	eccentricity/kBFS-Ecc.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	s	file:
+max_bkt	bucketing/bucket.h	/^    size_t max_bkt;$/;"	m	struct:buckets
+max_f	bucketing/SetCover.C	/^auto max_f = [] (uintE x, uintE y) { return std::max(x,y); };$/;"	v
+max_key	bucketing/sequentialHT.h	/^  K max_key;$/;"	m	class:sequentialHT
+max_upper	eccentricity/Simple-Approx-Ecc.C	/^  max_upper(uintE* _upper) : upper(_upper) {}$/;"	f	struct:max_upper
+max_upper	eccentricity/Simple-Approx-Ecc.C	/^struct max_upper {$/;"	s	file:
+max_upper	eccentricity/TK.C	/^  max_upper(uintE* _upper) : upper(_upper) {}$/;"	f	struct:max_upper
+max_upper	eccentricity/TK.C	/^struct max_upper {$/;"	s	file:
+median	quickSort.h	/^E median(E a, E b, E c, BinPred f) {$/;"	f
+mergeSeq	localAlg/sampleSort.h	/^void mergeSeq (E* sA, E* sB, intT* sC, intT lA, intT lB, BinPred f) {$/;"	f
+minDiPair	localAlg/sweep.h	/^struct minDiPair { diPair operator() (diPair a, diPair b){$/;"	s
+minF	utils.h	/^struct minF { E operator() (const E& a, const E& b) const {return (a < b) ? a : b;}};$/;"	s
+min_lower	eccentricity/Simple-Approx-Ecc.C	/^  min_lower(uintE* _lower) : lower(_lower) {}$/;"	f	struct:min_lower
+min_lower	eccentricity/Simple-Approx-Ecc.C	/^struct min_lower {$/;"	s	file:
+min_lower	eccentricity/TK.C	/^  min_lower(uintE* _lower) : lower(_lower) {}$/;"	f	struct:min_lower
+min_lower	eccentricity/TK.C	/^struct min_lower {$/;"	s	file:
+mmapStringFromFile	IO.h	/^_seq<char> mmapStringFromFile(const char *filename) {$/;"	f
+move_uninitialized	utils.h	/^  inline void move_uninitialized(T& a, const T& b) {$/;"	f	namespace:pbbs
+n	IO.h	/^  long n; \/\/ total number of characters$/;"	m	struct:words
+n	bucketing/bucket.h	/^    size_t n; \/\/ total number of identifiers in the system$/;"	m	struct:buckets
+n	graph.h	/^  long n;$/;"	m	struct:Uncompressed_Mem
+n	graph.h	/^  long n;$/;"	m	struct:graph
+n	utils.h	/^  long n;$/;"	m	struct:_seq
+n	vertexSubset.h	/^  size_t n, m;$/;"	m	struct:vertexSubsetData
+nblocks	utils.h	112;"	d
+neighbors	compressedVertex.h	/^  uchar* neighbors;$/;"	m	struct:compressedSymmetricVertex
+neighbors	vertex.h	/^  uintE* neighbors;$/;"	m	struct:symmetricVertex
+newA	utils.h	45;"	d
+new_array	utils.h	/^  E* new_array(size_t n) {$/;"	f	namespace:pbbs
+new_array_no_init	utils.h	/^  E* new_array_no_init(size_t n, bool touch_pages=false) {$/;"	f	namespace:pbbs
+new_p	localAlg/Nibble-Parallel.C	/^  sparseAdditiveSet<float> p, new_p;$/;"	m	struct:Local_Update	file:
+new_p	localAlg/Nibble-Parallel.C	/^  sparseAdditiveSet<float> p, new_p;$/;"	m	struct:Nibble_F	file:
+new_r	localAlg/ACL-Sync-Local-Opt.C	/^  sparseAdditiveSet<float> p, r, new_r;$/;"	m	struct:ACL_F	file:
+new_r	localAlg/ACL-Sync-Local.C	/^  sparseAdditiveSet<float> p, r, new_r;$/;"	m	struct:ACL_F	file:
+new_r	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r, new_r;$/;"	m	struct:HK_F	file:
+next	gettime.h	/^  double next() {$/;"	f	struct:timer
+nextTime	gettime.h	112;"	d
+nextTimeN	gettime.h	113;"	d
+next_bucket	bucketing/bucket.h	/^    inline bucket next_bucket() {$/;"	f	struct:buckets
+nghSum	PageRankDelta.C	/^  double* Delta, *nghSum;$/;"	m	struct:PR_F	file:
+nghSum	PageRankDelta.C	/^  double* nghSum;$/;"	m	struct:PR_Vertex_Reset	file:
+nghSum	PageRankDelta.C	/^  double* p, *Delta, *nghSum;$/;"	m	struct:PR_Vertex_F	file:
+nghSum	PageRankDelta.C	/^  double* p, *Delta, *nghSum;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+no_flag	utils.h	/^  const flags no_flag = 0;$/;"	m	namespace:pbbs
+no_output	ligra.h	/^const flags no_output = 1;$/;"	v
+nonMaxF	utils.h	/^struct nonMaxF{bool operator() (uintE &a) {return (a != UINT_E_MAX);}};$/;"	s
+notEmptyF	localAlg/sparseSet.h	/^    kvPair e; notEmptyF(kvPair _e) : e(_e) {} $/;"	f	struct:sparseAdditiveSet::notEmptyF
+notEmptyF	localAlg/sparseSet.h	/^  struct notEmptyF { $/;"	s	class:sparseAdditiveSet
+notMax	localAlg/HeatKernel-Randomized-Parallel.C	/^struct notMax { bool operator () (uintE a) { return a != UINT_E_MAX; }};$/;"	s	file:
+null_bkt	bucketing/bucket.h	/^    const uintE null_bkt = std::numeric_limits<uintE>::max();$/;"	m	struct:buckets
+numBytesSigned	byteRLE-pd.h	/^int numBytesSigned (intE x) {$/;"	f
+numBytesSigned	byteRLE.h	/^int numBytesSigned (intE x) {$/;"	f
+numNonzeros	vertexSubset.h	/^  long numNonzeros() { return m; }$/;"	f	struct:vertexSubsetData
+numRows	vertexSubset.h	/^  long numRows() { return n; }$/;"	f	struct:vertexSubsetData
+numVertices	vertexSubset.h	/^  long numVertices() { return n; }$/;"	f	struct:vertexSubsetData
+num_blocks	sequence.h	/^  inline size_t num_blocks(size_t n, size_t block_size) {$/;"	f	namespace:pbbs
+num_elms	bucketing/bucket.h	/^    size_t num_elms;$/;"	m	struct:buckets
+num_filtered	bucketing/bucket.h	/^  size_t num_filtered;$/;"	m	struct:bucket
+o	compressedVertex.h	/^    uintT v, o;$/;"	m	struct:decode_compressed::sparseT
+o	compressedVertex.h	/^    uintT v, o;$/;"	m	struct:decode_compressed::sparseTE
+o	compressedVertex.h	/^    uintT v, o;$/;"	m	struct:decode_compressed::sparseTSeq
+on	gettime.h	/^  bool on;$/;"	m	struct:timer
+oneMinusAlphaOverOnePlusAlpha	localAlg/ACL-Sync-Local-Opt.C	/^  double oneMinusAlphaOverOnePlusAlpha;$/;"	m	struct:ACL_F	file:
+oneMinusAlphaOverTwo	localAlg/ACL-Sync-Local.C	/^  double oneMinusAlphaOverTwo;$/;"	m	struct:ACL_F	file:
+one_over_n	PageRankDelta.C	/^  double damping, addedConstant, one_over_n, epsilon2;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+open_buckets	bucketing/bucket.h	/^    size_t open_buckets;$/;"	m	struct:buckets
+operator ()	BC.C	/^  inline bool operator() (uintE i) {$/;"	f	struct:BC_Back_Vertex_F
+operator ()	BC.C	/^  inline bool operator() (uintE i) {$/;"	f	struct:BC_Vertex_F
+operator ()	BellmanFord.C	/^  inline bool operator() (uintE i){$/;"	f	struct:BF_Vertex_F
+operator ()	CF.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:CF_Vertex_F
+operator ()	Components.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:CC_Vertex_F
+operator ()	IO.h	/^  bool operator() (pair<uintE,E> a, pair<uintE,E> b) {$/;"	f	struct:pairFirstCmp
+operator ()	IO.h	/^  bool operator() (pair<uintE,IntType> a, pair<uintE,IntType> b) {$/;"	f	struct:pairBothCmp
+operator ()	IO.h	/^struct getFirst {uintE operator() (pair<uintE,E> a) {return a.first;} };$/;"	f	struct:getFirst
+operator ()	KCore.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:Deg_AtLeast_K
+operator ()	KCore.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:Deg_LessThan_K
+operator ()	MIS.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:MIS_Filter
+operator ()	PageRank.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:PR_Vertex_F
+operator ()	PageRank.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:PR_Vertex_Reset
+operator ()	PageRankDelta.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:PR_Vertex_F
+operator ()	PageRankDelta.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:PR_Vertex_F_FirstRound
+operator ()	PageRankDelta.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:PR_Vertex_Reset
+operator ()	Radii.C	/^  inline bool operator() (uintE i) {$/;"	f	struct:Radii_Vertex_F
+operator ()	Triangle.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:initF
+operator ()	Triangle.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	f	struct:intLT
+operator ()	blockRadixSort.h	/^      long operator() (E p) {return _mask&(_f(p)>>_offset);}$/;"	f	struct:intSort::eBits
+operator ()	blockRadixSort.h	/^  struct firstF {E1 operator() (std::pair<E1,E2> a) {return a.first;} };$/;"	f	struct:firstF
+operator ()	eccentricity/CCBFS.h	/^  inline bool operator () (const uintE &i) {$/;"	f	struct:CC_Vertex_F
+operator ()	eccentricity/CLRSTV.C	/^  intE operator() (intE i) {return V[i].getOutDegree();}$/;"	f	struct:getDegree
+operator ()	eccentricity/CLRSTV.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	f	struct:maxFirstF
+operator ()	eccentricity/FM-Ecc.C	/^  inline bool operator() (const uintE &i) {$/;"	f	struct:Ecc_Vertex_F
+operator ()	eccentricity/LogLog-Ecc.C	/^  inline bool operator() (const uintE &i) {$/;"	f	struct:Ecc_Vertex_F
+operator ()	eccentricity/RV.C	/^  intE operator() (intE i) {return V[i].getOutDegree();}$/;"	f	struct:getDegree
+operator ()	eccentricity/RV.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	f	struct:maxFirstF
+operator ()	eccentricity/Simple-Approx-Ecc.C	/^  intE operator() (intE i) {return V[i].getOutDegree();}$/;"	f	struct:getDegree
+operator ()	eccentricity/Simple-Approx-Ecc.C	/^  uintE operator() (const uintE& a, const uintE& b) {$/;"	f	struct:max_upper
+operator ()	eccentricity/Simple-Approx-Ecc.C	/^  uintE operator() (const uintE& a, const uintE& b) {$/;"	f	struct:min_lower
+operator ()	eccentricity/TK.C	/^  intE operator() (intE i) {return V[i].getOutDegree();}$/;"	f	struct:getDegree
+operator ()	eccentricity/TK.C	/^  uintE operator() (const uintE& a, const uintE& b) {$/;"	f	struct:max_upper
+operator ()	eccentricity/TK.C	/^  uintE operator() (const uintE& a, const uintE& b) {$/;"	f	struct:min_lower
+operator ()	eccentricity/kBFS-1Phase-Ecc.C	/^  inline bool operator() (const uintE &i) {$/;"	f	struct:Ecc_Vertex_F
+operator ()	eccentricity/kBFS-1Phase-Ecc.C	/^  intE operator() (intE i) {return V[i].getOutDegree();}$/;"	f	struct:getDegree
+operator ()	eccentricity/kBFS-1Phase-Ecc.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	f	struct:maxFirstF
+operator ()	eccentricity/kBFS-Ecc.C	/^  inline bool operator() (const uintE &i) {$/;"	f	struct:Ecc_Vertex_F
+operator ()	eccentricity/kBFS-Ecc.C	/^  intE operator() (intE i) {return V[i].getOutDegree();}$/;"	f	struct:getDegree
+operator ()	eccentricity/kBFS-Ecc.C	/^struct maxFirstF { intPair operator() (const intPair& a, const intPair& b) $/;"	f	struct:maxFirstF
+operator ()	eccentricity/kBFS-Exact.C	/^  inline bool operator() (const uintE &i) {$/;"	f	struct:Ecc_Vertex_F
+operator ()	encoder.C	/^  bool operator() (intTriple2 a, intTriple2 b) {$/;"	f	struct:tripleCmp
+operator ()	index_map.h	/^  inline E& operator() (const size_t i) const {return s[i];}$/;"	f	struct:array_imap
+operator ()	index_map.h	/^  inline T operator() (const size_t i) {return f(i+s);}$/;"	f	struct:in_imap
+operator ()	localAlg/ACL-Serial-Naive.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	f	struct:pq_compare
+operator ()	localAlg/ACL-Serial-Opt-Naive.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	f	struct:pq_compare
+operator ()	localAlg/ACL-Serial-Opt.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	f	struct:pq_compare
+operator ()	localAlg/ACL-Serial.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	f	struct:pq_compare
+operator ()	localAlg/ACL-Sync-Local-Opt.C	/^  inline bool operator () (ACLpair val) {$/;"	f	struct:activeF
+operator ()	localAlg/ACL-Sync-Local-Opt.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:Local_Update
+operator ()	localAlg/ACL-Sync-Local-Opt.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	f	struct:intLT
+operator ()	localAlg/ACL-Sync-Local.C	/^  inline bool operator () (ACLpair val) {$/;"	f	struct:activeF
+operator ()	localAlg/ACL-Sync-Local.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:Local_Update
+operator ()	localAlg/ACL-Sync-Local.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	f	struct:intLT
+operator ()	localAlg/HeatKernel-Parallel.C	/^  inline bool operator () (ACLpair val) {$/;"	f	struct:activeF
+operator ()	localAlg/HeatKernel-Parallel.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:Local_Update
+operator ()	localAlg/HeatKernel-Parallel.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	f	struct:intLT
+operator ()	localAlg/HeatKernel-Randomized-Parallel.C	/^struct intLT { bool operator () (uintT a, uintT b) { return a < b; }; };$/;"	f	struct:intLT
+operator ()	localAlg/HeatKernel-Randomized-Parallel.C	/^struct notMax { bool operator () (uintE a) { return a != UINT_E_MAX; }};$/;"	f	struct:notMax
+operator ()	localAlg/HeatKernel-Serial.C	/^  bool operator () (const intPair &a, const intPair &b) const {$/;"	f	class:equalPair
+operator ()	localAlg/HeatKernel-Serial.C	/^  size_t operator () (const intPair &x) const {$/;"	f	class:hashPair
+operator ()	localAlg/Nibble-Parallel.C	/^  inline bool operator () (ACLpair val) {$/;"	f	struct:activeF
+operator ()	localAlg/Nibble-Parallel.C	/^  inline bool operator () (uintE i) {$/;"	f	struct:Local_Update
+operator ()	localAlg/sparseSet.h	/^    int operator() (kvPair a) {return a.first != UINT_E_MAX;}};$/;"	f	struct:sparseAdditiveSet::notEmptyF
+operator ()	localAlg/sweep.h	/^  bool operator () (pairIF a, pairIF b) {$/;"	f	struct:sweep_compare
+operator ()	localAlg/sweep.h	/^  bool operator() (pairIntT a, pairIntT b){$/;"	f	struct:edgeLessPair
+operator ()	localAlg/sweep.h	/^  intT operator() (pairIntT a) { return a.second; }};$/;"	f	struct:extractSecond
+operator ()	localAlg/sweep.h	/^struct addFirst { pairIntT operator() (pairIntT a, pairIntT b){$/;"	f	struct:addFirst
+operator ()	localAlg/sweep.h	/^struct minDiPair { diPair operator() (diPair a, diPair b){$/;"	f	struct:minDiPair
+operator ()	utils.h	/^    ET operator() (intT i) {return A[i];}$/;"	f	struct:sequence::getA
+operator ()	utils.h	/^    OT operator () (intT i) {return f(A[i]);}$/;"	f	struct:sequence::getAF
+operator ()	utils.h	/^    intT operator() (intT i) {return (intT) A[i];}$/;"	f	struct:sequence::boolGetA
+operator ()	utils.h	/^struct addF { E operator() (const E& a, const E& b) const {return a+b;}};$/;"	f	struct:addF
+operator ()	utils.h	/^struct identityF { E operator() (const E& x) {return x;}};$/;"	f	struct:identityF
+operator ()	utils.h	/^struct maxF { E operator() (const E& a, const E& b) const {return (a>b) ? a : b;}};$/;"	f	struct:maxF
+operator ()	utils.h	/^struct minF { E operator() (const E& a, const E& b) const {return (a < b) ? a : b;}};$/;"	f	struct:minF
+operator ()	utils.h	/^struct nonMaxF{bool operator() (uintE &a) {return (a != UINT_E_MAX);}};$/;"	f	struct:nonMaxF
+operator []	index_map.h	/^  T& operator[] (const size_t i) const {return s[i];}$/;"	f	struct:iter_imap
+operator []	index_map.h	/^  inline E& operator[] (const size_t i) const {return s[i];}$/;"	f	struct:array_imap
+operator []	index_map.h	/^  inline T operator[] (const size_t i) {return f(i+s);}$/;"	f	struct:in_imap
+order	bucketing/bucket.h	/^    const bucket_order order;$/;"	m	struct:buckets
+outDegree	compressedVertex.h	/^  uintT outDegree;$/;"	m	struct:compressedAsymmetricVertex
+outDegree	vertex.h	/^  uintT outDegree;$/;"	m	struct:asymmetricVertex
+outNeighbors	compressedVertex.h	/^  uchar* outNeighbors;$/;"	m	struct:compressedAsymmetricVertex
+outNeighbors	vertex.h	/^  uintE* inNeighbors, *outNeighbors;$/;"	m	struct:asymmetricVertex
+out_imap	index_map.h	/^  out_imap(size_t n, F f) : f(f), s(0), e(n) {};$/;"	f	struct:out_imap
+out_imap	index_map.h	/^  out_imap(size_t s, size_t e, F f) : f(f), s(s), e(e) {};$/;"	f	struct:out_imap
+out_imap	index_map.h	/^struct out_imap {$/;"	s
+p	PageRankDelta.C	/^  double* p, *Delta, *nghSum;$/;"	m	struct:PR_Vertex_F	file:
+p	PageRankDelta.C	/^  double* p, *Delta, *nghSum;$/;"	m	struct:PR_Vertex_F_FirstRound	file:
+p	localAlg/ACL-Sync-Local-Opt.C	/^  sparseAdditiveSet<float> p, r, new_r;$/;"	m	struct:ACL_F	file:
+p	localAlg/ACL-Sync-Local-Opt.C	/^  sparseAdditiveSet<float> p, r;$/;"	m	struct:Local_Update	file:
+p	localAlg/ACL-Sync-Local.C	/^  sparseAdditiveSet<float> p, r, new_r;$/;"	m	struct:ACL_F	file:
+p	localAlg/ACL-Sync-Local.C	/^  sparseAdditiveSet<float> p, r;$/;"	m	struct:Local_Update	file:
+p	localAlg/Nibble-Parallel.C	/^  sparseAdditiveSet<float> p, new_p;$/;"	m	struct:Local_Update	file:
+p	localAlg/Nibble-Parallel.C	/^  sparseAdditiveSet<float> p, new_p;$/;"	m	struct:Nibble_F	file:
+p_curr	PageRank.C	/^  double* p_curr, *p_next;$/;"	m	struct:PR_F	file:
+p_curr	PageRank.C	/^  double* p_curr;$/;"	m	struct:PR_Vertex_F	file:
+p_curr	PageRank.C	/^  double* p_curr;$/;"	m	struct:PR_Vertex_Reset	file:
+p_next	PageRank.C	/^  double* p_curr, *p_next;$/;"	m	struct:PR_F	file:
+p_next	PageRank.C	/^  double* p_next;$/;"	m	struct:PR_Vertex_F	file:
+pack	byte.h	/^inline size_t pack(P pred, uchar* edge_start, const uintE &source, const uintE &degree) {$/;"	f
+pack	utils.h	/^  _seq<ET> pack(ET* Out, bool* Fl, intT s, intT e, F f) {$/;"	f	namespace:sequence
+pack	utils.h	/^  intT pack(ET* In, ET* Out, bool* Fl, intT n) {$/;"	f	namespace:sequence
+packEdges	ligra.h	/^vertexSubsetData<uintE> packEdges(graph<vertex>& GA, vertexSubset& vs, P& p, const flags& fl=0) {$/;"	f
+packIndex	utils.h	/^  _seq<intT> packIndex(bool* Fl, intT n) {$/;"	f	namespace:sequence
+packOutNgh	compressedVertex.h	/^  inline size_t packOutNgh(V* v, long i, P &pred, bool* bits, uintE* tmp1, uintE* tmp2) {$/;"	f	namespace:decode_compressed
+packOutNgh	compressedVertex.h	/^  inline size_t packOutNgh(long i, P &pred, bool* bits, uintE* tmp1, uintE* tmp2) {$/;"	f	struct:compressedAsymmetricVertex
+packOutNgh	compressedVertex.h	/^  inline size_t packOutNgh(long i, P &pred, bool* bits, uintE* tmp1, uintE* tmp2) {$/;"	f	struct:compressedSymmetricVertex
+packOutNgh	vertex.h	/^  inline size_t packOutNgh(V* v, long vtx_id, Pred& p, bool* bits, uintE* tmp) {$/;"	f	namespace:decode_uncompressed
+packOutNgh	vertex.h	/^  inline size_t packOutNgh(long i, F &f, bool* bits, uintE* tmp1, uintE* tmp2) {$/;"	f	struct:asymmetricVertex
+packOutNgh	vertex.h	/^  inline size_t packOutNgh(long i, F &f, bool* bits, uintE* tmp1, uintE* tmp2) {$/;"	f	struct:symmetricVertex
+packSerial	utils.h	/^  _seq<ET> packSerial(ET* Out, bool* Fl, intT s, intT e, F f) {$/;"	f	namespace:sequence
+pack_edges	ligra.h	/^const flags pack_edges = 2;$/;"	v
+pack_index	sequence.h	/^  array_imap<Idx_Type> pack_index(Imap_Fl Fl, flags fl = no_flag) {$/;"	f	namespace:pbbs
+pack_index_and_data	sequence.h	/^  array_imap<tuple<Idx_Type, D> > pack_index_and_data(F& f, size_t size, flags fl = no_flag) {$/;"	f	namespace:pbbs
+pack_serial_at	sequence.h	/^  void pack_serial_at(Imap_In In, typename Imap_In::T* Out, Imap_Fl Fl) {$/;"	f	namespace:pbbs
+pairBothCmp	IO.h	/^struct pairBothCmp {$/;"	s
+pairDouble	localAlg/ACL-Serial-Naive.C	/^typedef pair<double,double> pairDouble;$/;"	t	file:
+pairDouble	localAlg/ACL-Serial-Opt-Naive.C	/^typedef pair<double,double> pairDouble;$/;"	t	file:
+pairDouble	localAlg/ACL-Serial-Opt.C	/^typedef pair<double,double> pairDouble;$/;"	t	file:
+pairDouble	localAlg/ACL-Serial.C	/^typedef pair<double,double> pairDouble;$/;"	t	file:
+pairDouble	localAlg/HeatKernel-Serial.C	/^typedef pair<double,double> pairDouble;$/;"	t	file:
+pairDouble	localAlg/Nibble-Serial.C	/^typedef pair<double,double> pairDouble;$/;"	t	file:
+pairDouble	localAlg/sweep.h	/^typedef pair<double,double> pairDouble;$/;"	t
+pairFirstCmp	IO.h	/^struct pairFirstCmp {$/;"	s
+pairIF	localAlg/ACL-Serial-Naive.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/ACL-Serial-Opt-Naive.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/ACL-Serial-Opt.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/ACL-Serial.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/HeatKernel-Randomized-Serial.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/HeatKernel-Serial.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/Nibble-Serial.C	/^typedef pair<uintE,double> pairIF;$/;"	t	file:
+pairIF	localAlg/sweep.h	/^typedef pair<uintE,double> pairIF;$/;"	t
+pairInt	localAlg/HeatKernel-Serial.C	/^typedef pair<uintE,uintE> pairInt;$/;"	t	file:
+pairIntT	localAlg/sweep.h	/^typedef pair<intT,intT> pairIntT;$/;"	t
+parSweepCut	localAlg/sweep.h	/^  sweepObject parSweepCut(graph<vertex>& GA, pair<uintE,fType> *p, long numNonzeros, long start) {$/;"	f
+parallelCompressEdges	byte-pd.h	/^uintE *parallelCompressEdges(uintE *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressEdges	byte.h	/^uintE *parallelCompressEdges(uintE *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressEdges	byteRLE-pd.h	/^uintE *parallelCompressEdges(uintE *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressEdges	byteRLE.h	/^uintE *parallelCompressEdges(uintE *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressEdges	nibble-pd.h	/^uintE *parallelCompressEdges(uintE *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressEdges	nibble.h	/^uintE *parallelCompressEdges(uintE *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressWeightedEdges	byte-pd.h	/^uchar *parallelCompressWeightedEdges(intEPair *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressWeightedEdges	byte.h	/^uchar *parallelCompressWeightedEdges(intEPair *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressWeightedEdges	byteRLE-pd.h	/^uchar *parallelCompressWeightedEdges(intEPair *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressWeightedEdges	byteRLE.h	/^uchar *parallelCompressWeightedEdges(intEPair *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressWeightedEdges	nibble-pd.h	/^uchar *parallelCompressWeightedEdges(intEPair *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallelCompressWeightedEdges	nibble.h	/^uchar *parallelCompressWeightedEdges(intEPair *edges, uintT *offsets, long n, long m, uintE* Degrees) {$/;"	f
+parallel_for	parallel.h	30;"	d
+parallel_for	parallel.h	53;"	d
+parallel_for	parallel.h	80;"	d
+parallel_for	parallel.h	91;"	d
+parallel_for_1	parallel.h	31;"	d
+parallel_for_1	parallel.h	55;"	d
+parallel_for_1	parallel.h	81;"	d
+parallel_for_1	parallel.h	92;"	d
+parallel_for_256	parallel.h	32;"	d
+parallel_for_256	parallel.h	56;"	d
+parallel_for_256	parallel.h	82;"	d
+parallel_for_256	parallel.h	93;"	d
+parallel_main	decoder.C	/^int parallel_main(int argc, char* argv[]) {  $/;"	f
+parallel_main	encoder.C	/^int parallel_main(int argc, char* argv[]) {  $/;"	f
+parallel_main	ligra.h	/^int parallel_main(int argc, char* argv[]) {$/;"	f
+parallel_main	parallel.h	29;"	d
+parallel_main	parallel.h	54;"	d
+parallel_main	parallel.h	79;"	d
+parallel_main	parallel.h	90;"	d
+pbbs	binary_search.h	/^namespace pbbs {$/;"	n
+pbbs	bucketing/counting_sort.h	/^namespace pbbs {$/;"	n
+pbbs	bucketing/histogram.h	/^namespace pbbs {$/;"	n
+pbbs	sequence.h	/^namespace pbbs {$/;"	n
+pbbs	utils.h	/^namespace pbbs {$/;"	n
+plusReduce	utils.h	/^  OT plusReduce(OT* A, intT n) {$/;"	f	namespace:sequence
+plusScan	utils.h	/^  ET plusScan(ET *In, ET* Out, intT n) {$/;"	f	namespace:sequence
+pos	bucketing/KCoreSerial.C	/^  intT* pos;$/;"	m	struct:decompress_f	file:
+pq_compare	localAlg/ACL-Serial-Naive.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	s	file:
+pq_compare	localAlg/ACL-Serial-Opt-Naive.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	s	file:
+pq_compare	localAlg/ACL-Serial-Opt.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	s	file:
+pq_compare	localAlg/ACL-Serial.C	/^struct pq_compare { bool operator () (pairIF a, pairIF b) {$/;"	s	file:
+prevIDs	Components.C	/^  uintE* IDs, *prevIDs;$/;"	m	struct:CC_F	file:
+prevIDs	Components.C	/^  uintE* IDs, *prevIDs;$/;"	m	struct:CC_Vertex_F	file:
+prevIDs	eccentricity/CCBFS.h	/^  intE* IDs, *prevIDs;$/;"	m	struct:CC_F
+prevIDs	eccentricity/CCBFS.h	/^  intE* IDs, *prevIDs;$/;"	m	struct:CC_Vertex_F
+print	localAlg/sparseSet.h	/^  void print() {$/;"	f	class:sparseAdditiveSet
+printAdjT	decoder.C	/^  printAdjT(stringstream *_ss) : ss(_ss) {}$/;"	f	struct:printAdjT
+printAdjT	decoder.C	/^struct printAdjT {$/;"	s	file:
+printWghT	decoder.C	/^  printWghT(stringstream *_ss) : ss(_ss) {}$/;"	f	struct:printWghT
+printWghT	decoder.C	/^struct printWghT {$/;"	s	file:
+quickSort	quickSort.h	/^void quickSort(E* A, intT n, BinPred f) {$/;"	f
+r	localAlg/ACL-Sync-Local-Opt.C	/^  sparseAdditiveSet<float> p, r, new_r;$/;"	m	struct:ACL_F	file:
+r	localAlg/ACL-Sync-Local-Opt.C	/^  sparseAdditiveSet<float> p, r;$/;"	m	struct:Local_Update	file:
+r	localAlg/ACL-Sync-Local.C	/^  sparseAdditiveSet<float> p, r, new_r;$/;"	m	struct:ACL_F	file:
+r	localAlg/ACL-Sync-Local.C	/^  sparseAdditiveSet<float> p, r;$/;"	m	struct:Local_Update	file:
+r	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r, new_r;$/;"	m	struct:HK_F	file:
+r	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r;$/;"	m	struct:HK_Last_F	file:
+r	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r;$/;"	m	struct:Local_Update	file:
+radii	Radii.C	/^  intE* radii;$/;"	m	struct:Radii_F	file:
+radixBlock	blockRadixSort.h	/^  void radixBlock(E* A, E* B, bIndexT *Tmp, $/;"	f	namespace:intSort
+radixLoopBottomUp	blockRadixSort.h	/^    void radixLoopBottomUp(E *A, E *B, bIndexT *Tmp, bint (*BK)[BUCKETS],$/;"	f	namespace:intSort
+radixLoopTopDown	blockRadixSort.h	/^    void radixLoopTopDown(E *A, E *B, bIndexT *Tmp, bint (*BK)[BUCKETS],$/;"	f	namespace:intSort
+radixStep	blockRadixSort.h	/^    void radixStep(E* A, E* B, bIndexT *Tmp, bint (*BK)[BUCKETS],$/;"	f	namespace:intSort
+radixStepSerial	blockRadixSort.h	/^  void radixStepSerial(E* A, E* B, bIndexT *Tmp, bint buckets[BUCKETS],$/;"	f	namespace:intSort
+readCompressedGraph	IO.h	/^graph<vertex> readCompressedGraph(char* fname, bool isSymmetric, bool mmap) {$/;"	f
+readGraph	IO.h	/^graph<vertex> readGraph(char* iFile, bool compressed, bool symmetric, bool binary, bool mmap) {$/;"	f
+readGraphFromBinary	IO.h	/^graph<vertex> readGraphFromBinary(char* iFile, bool isSymmetric) {$/;"	f
+readGraphFromFile	IO.h	/^graph<vertex> readGraphFromFile(char* fname, bool isSymmetric, bool mmap) {$/;"	f
+readStringFromFile	IO.h	/^_seq<char> readStringFromFile(char *fileName) {$/;"	f
+reduce	utils.h	/^  OT reduce(OT* A, intT n, F f) {$/;"	f	namespace:sequence
+reduce	utils.h	/^  OT reduce(intT s, intT e, F f, G g) {$/;"	f	namespace:sequence
+reduceSerial	utils.h	/^  OT reduceSerial(intT s, intT e, F f, G g) {$/;"	f	namespace:sequence
+remDuplicates	utils.h	/^void remDuplicates(G& get_key, uintE* flags, long m, long n) {$/;"	f
+remove_duplicates	ligra.h	/^const flags remove_duplicates = 32;$/;"	v
+reportAll	eccentricity/CLRSTV.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/FM-Ecc.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/LogLog-Ecc.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/RV.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/Simple-Approx-Ecc.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/TK.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/kBFS-1Phase-Ecc.C	/^void reportAll() {$/;"	f
+reportAll	eccentricity/kBFS-Ecc.C	/^void reportAll() {$/;"	f
+reportNext	gettime.h	/^  void reportNext() {reportTime(next());}$/;"	f	struct:timer
+reportNext	gettime.h	/^  void reportNext(std::string str) {std::cout << str << " : "; reportNext();}$/;"	f	struct:timer
+reportStop	gettime.h	/^  void reportStop(double weight, std::string str) {$/;"	f	struct:timer
+reportT	gettime.h	/^  void reportT(double time) {$/;"	f	struct:timer
+reportTime	gettime.h	/^  void reportTime(double time) {$/;"	f	struct:timer
+reportTime	gettime.h	111;"	d
+reportTotal	gettime.h	/^  void reportTotal() {$/;"	f	struct:timer
+reportTotal	gettime.h	/^  void reportTotal(std::string str) {$/;"	f	struct:timer
+resize	bucketing/dyn_arr.h	/^  inline void resize(size_t n) {$/;"	f	struct:dyn_arr
+resize	bucketing/histogram.h	/^    void resize(size_t req_size) {$/;"	f	struct:pbbs::hist_table
+round	Radii.C	/^  intE round;$/;"	m	struct:Radii_F	file:
+round	eccentricity/CLRSTV.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+round	eccentricity/FM-Ecc.C	/^  intE round;$/;"	m	struct:Ecc_F	file:
+round	eccentricity/LogLog-Ecc.C	/^  intE round;$/;"	m	struct:Ecc_F	file:
+round	eccentricity/RV.C	/^  intPair* Dist; uintE round;$/;"	m	struct:BFS_Pair_F	file:
+round	eccentricity/RV.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+round	eccentricity/Simple-Approx-Ecc.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+round	eccentricity/TK.C	/^  uintE* Dist; uintE round;$/;"	m	struct:BFS_F	file:
+round	eccentricity/kBFS-1Phase-Ecc.C	/^  uintE round;$/;"	m	struct:Ecc_F	file:
+round	eccentricity/kBFS-Ecc.C	/^  uintE round;$/;"	m	struct:Ecc_F	file:
+round	eccentricity/kBFS-Exact.C	/^  uintE round;$/;"	m	struct:Ecc_F	file:
+s	graph.h	/^  char* s;$/;"	m	struct:Compressed_Mem
+s	index_map.h	/^  size_t s, e;$/;"	m	struct:in_imap
+s	index_map.h	/^  size_t s, e;$/;"	m	struct:out_imap
+s	vertexSubset.h	/^  S* s;$/;"	m	struct:vertexSubsetData
+s1	localAlg/sweep.h	/^timer s1,s2;$/;"	v
+s2	localAlg/sweep.h	/^timer s1,s2;$/;"	v
+sampleSort	localAlg/sampleSort.h	/^void sampleSort (E* A, intT n, BinPred f) {$/;"	f
+scan	utils.h	/^  ET scan(ET *In, ET* Out, intT n, F f, ET zero) {$/;"	f	namespace:sequence
+scan	utils.h	/^  ET scan(ET* Out, intT s, intT e, F f, G g,  ET zero, bool inclusive, bool back) {$/;"	f	namespace:sequence
+scanBack	utils.h	/^  ET scanBack(ET *In, ET* Out, intT n, F f, ET zero) {$/;"	f	namespace:sequence
+scanI	utils.h	/^  ET scanI(ET *In, ET* Out, intT n, F f, ET zero) {$/;"	f	namespace:sequence
+scanIBack	utils.h	/^  ET scanIBack(ET *In, ET* Out, intT n, F f, ET zero) {$/;"	f	namespace:sequence
+scanSerial	utils.h	/^  ET scanSerial(ET *In, ET* Out, intT n, F f, ET zero) {$/;"	f	namespace:sequence
+scanSerial	utils.h	/^  ET scanSerial(ET* Out, intT s, intT e, F f, G g, ET zero, bool inclusive, bool back) {$/;"	f	namespace:sequence
+seq_histogram_reduce	bucketing/histogram.h	/^  inline pair<size_t, O*> seq_histogram_reduce(A& get_elm, size_t n, Reduce& reduce_f, Apply& apply_f, hist_table<K, V>& ht) {$/;"	f	namespace:pbbs
+sequence	utils.h	/^namespace sequence {$/;"	n
+sequentialCompressEdgeSet	byte-pd.h	/^long sequentialCompressEdgeSet(uchar *edgeArray, long currentOffset, uintT degree,$/;"	f
+sequentialCompressEdgeSet	byte.h	/^long sequentialCompressEdgeSet(uchar *edgeArray, long currentOffset, uintT degree,$/;"	f
+sequentialCompressEdgeSet	byteRLE-pd.h	/^long sequentialCompressEdgeSet(uchar *edgeArray, long currentOffset, uintT degree, uintE vertexNum, uintE *savedEdges) {$/;"	f
+sequentialCompressEdgeSet	byteRLE.h	/^long sequentialCompressEdgeSet(uchar *edgeArray, long currentOffset, uintT degree, uintE vertexNum, uintE *savedEdges) {$/;"	f
+sequentialCompressEdgeSet	nibble-pd.h	/^long sequentialCompressEdgeSet(uchar *edgeArray, long currentOffset, uintT degree,$/;"	f
+sequentialCompressEdgeSet	nibble.h	/^long sequentialCompressEdgeSet(uchar *edgeArray, long currentOffset, uintT degree,$/;"	f
+sequentialCompressWeightedEdgeSet	byte-pd.h	/^long sequentialCompressWeightedEdgeSet$/;"	f
+sequentialCompressWeightedEdgeSet	byte.h	/^long sequentialCompressWeightedEdgeSet$/;"	f
+sequentialCompressWeightedEdgeSet	byteRLE-pd.h	/^long sequentialCompressWeightedEdgeSet(uchar *edgeArray, long currentOffset, uintT degree, uintE vertexNum, intEPair *savedEdges) {$/;"	f
+sequentialCompressWeightedEdgeSet	byteRLE.h	/^long sequentialCompressWeightedEdgeSet(uchar *edgeArray, long currentOffset, uintT degree, uintE vertexNum, intEPair *savedEdges) {$/;"	f
+sequentialCompressWeightedEdgeSet	nibble-pd.h	/^long sequentialCompressWeightedEdgeSet$/;"	f
+sequentialCompressWeightedEdgeSet	nibble.h	/^long sequentialCompressWeightedEdgeSet$/;"	f
+sequentialHT	bucketing/sequentialHT.h	/^  sequentialHT(T* _table, size_t _m, tuple<K, V> _empty) :$/;"	f	class:sequentialHT
+sequentialHT	bucketing/sequentialHT.h	/^  sequentialHT(T* _table, size_t size, float loadFactor, tuple<K, V> _empty) :$/;"	f	class:sequentialHT
+sequentialHT	bucketing/sequentialHT.h	/^class sequentialHT {$/;"	c
+setInDegree	compressedVertex.h	/^  void setInDegree(uintT _d) { degree = _d; }$/;"	f	struct:compressedSymmetricVertex
+setInDegree	compressedVertex.h	/^  void setInDegree(uintT _d) { inDegree = _d; }$/;"	f	struct:compressedAsymmetricVertex
+setInDegree	vertex.h	/^  void setInDegree(uintT _d) { degree = _d; }$/;"	f	struct:symmetricVertex
+setInDegree	vertex.h	/^  void setInDegree(uintT _d) { inDegree = _d; }$/;"	f	struct:asymmetricVertex
+setInNeighbor	vertex.h	/^  void setInNeighbor(uintT j, uintE ngh) { inNeighbors[2*j] = ngh; }$/;"	f	struct:asymmetricVertex
+setInNeighbor	vertex.h	/^  void setInNeighbor(uintT j, uintE ngh) { inNeighbors[j] = ngh; }$/;"	f	struct:asymmetricVertex
+setInNeighbor	vertex.h	/^  void setInNeighbor(uintT j, uintE ngh) { neighbors[2*j] = ngh; }$/;"	f	struct:symmetricVertex
+setInNeighbor	vertex.h	/^  void setInNeighbor(uintT j, uintE ngh) { neighbors[j] = ngh; }$/;"	f	struct:symmetricVertex
+setInNeighbors	compressedVertex.h	/^  void setInNeighbors(uchar* _i) { inNeighbors = _i; }$/;"	f	struct:compressedAsymmetricVertex
+setInNeighbors	compressedVertex.h	/^  void setInNeighbors(uchar* _i) { neighbors = _i; }$/;"	f	struct:compressedSymmetricVertex
+setInNeighbors	vertex.h	/^  void setInNeighbors(intE* _i) { inNeighbors = _i; }$/;"	f	struct:asymmetricVertex
+setInNeighbors	vertex.h	/^  void setInNeighbors(intE* _i) { neighbors = _i; }$/;"	f	struct:symmetricVertex
+setInNeighbors	vertex.h	/^  void setInNeighbors(uintE* _i) { inNeighbors = _i; }$/;"	f	struct:asymmetricVertex
+setInNeighbors	vertex.h	/^  void setInNeighbors(uintE* _i) { neighbors = _i; }$/;"	f	struct:symmetricVertex
+setInWeight	vertex.h	/^  void setInWeight(uintT j, intE wgh) { neighbors[2*j+1] = wgh; }$/;"	f	struct:symmetricVertex
+setInWeight	vertex.h	/^  void setInWeight(uintT j, uintE wgh) { inNeighbors[2*j+1] = wgh; }$/;"	f	struct:asymmetricVertex
+setOutDegree	compressedVertex.h	/^  void setOutDegree(uintT _d) { degree = _d; }$/;"	f	struct:compressedSymmetricVertex
+setOutDegree	compressedVertex.h	/^  void setOutDegree(uintT _d) { outDegree = _d; }$/;"	f	struct:compressedAsymmetricVertex
+setOutDegree	vertex.h	/^  void setOutDegree(uintT _d) { degree = _d; }$/;"	f	struct:symmetricVertex
+setOutDegree	vertex.h	/^  void setOutDegree(uintT _d) { outDegree = _d; }$/;"	f	struct:asymmetricVertex
+setOutNeighbor	vertex.h	/^  void setOutNeighbor(uintT j, uintE ngh) { neighbors[2*j] = ngh; }$/;"	f	struct:symmetricVertex
+setOutNeighbor	vertex.h	/^  void setOutNeighbor(uintT j, uintE ngh) { neighbors[j] = ngh; }$/;"	f	struct:symmetricVertex
+setOutNeighbor	vertex.h	/^  void setOutNeighbor(uintT j, uintE ngh) { outNeighbors[2*j] = ngh; }$/;"	f	struct:asymmetricVertex
+setOutNeighbor	vertex.h	/^  void setOutNeighbor(uintT j, uintE ngh) { outNeighbors[j] = ngh; }$/;"	f	struct:asymmetricVertex
+setOutNeighbors	compressedVertex.h	/^  void setOutNeighbors(uchar* _i) { neighbors = _i; }$/;"	f	struct:compressedSymmetricVertex
+setOutNeighbors	compressedVertex.h	/^  void setOutNeighbors(uchar* _i) { outNeighbors = _i; }$/;"	f	struct:compressedAsymmetricVertex
+setOutNeighbors	vertex.h	/^  void setOutNeighbors(intE* _i) { neighbors = _i; }$/;"	f	struct:symmetricVertex
+setOutNeighbors	vertex.h	/^  void setOutNeighbors(intE* _i) { outNeighbors = _i; }$/;"	f	struct:asymmetricVertex
+setOutNeighbors	vertex.h	/^  void setOutNeighbors(uintE* _i) { neighbors = _i; }$/;"	f	struct:symmetricVertex
+setOutNeighbors	vertex.h	/^  void setOutNeighbors(uintE* _i) { outNeighbors = _i; }$/;"	f	struct:asymmetricVertex
+setOutWeight	vertex.h	/^  void setOutWeight(uintT j, intE wgh) { neighbors[2*j+1] = wgh; }$/;"	f	struct:symmetricVertex
+setOutWeight	vertex.h	/^  void setOutWeight(uintT j, uintE wgh) { outNeighbors[2*j+1] = wgh; }$/;"	f	struct:asymmetricVertex
+setWorkers	parallel.h	/^static void setWorkers(int n) { omp_set_num_threads(n); }$/;"	f
+setWorkers	parallel.h	/^static void setWorkers(int n) { }$/;"	f
+setWorkers	parallel.h	/^static void setWorkers(int n) {$/;"	f
+should_output	ligra.h	/^inline bool should_output(const flags& fl) { return !(fl & no_output); }$/;"	f
+size	bucketing/dyn_arr.h	/^  size_t size;$/;"	m	struct:dyn_arr
+size	bucketing/histogram.h	/^    size_t size;$/;"	m	struct:pbbs::hist_table
+size	index_map.h	/^  inline size_t size() { return e - s;}$/;"	f	struct:array_imap
+size	index_map.h	/^  size_t size() { return e - s;}$/;"	f	struct:in_imap
+size	index_map.h	/^  size_t size() { return e - s;}$/;"	f	struct:iter_imap
+size	index_map.h	/^  size_t size() { return e - s;}$/;"	f	struct:out_imap
+size	vertexSubset.h	/^  long size() { return m; }$/;"	f	struct:vertexSubsetData
+sizeAndFileName	parseCommandLine.h	/^  pair<int,char*> sizeAndFileName() {$/;"	f	struct:commandLine
+sizeS	localAlg/sweep.h	/^  long sizeS, volS, vol, edgesCrossing;$/;"	m	struct:sweepObject
+slice	index_map.h	/^  in_imap<T,F> slice(size_t ss, size_t ee) {return in_imap<T,F>(s+ss,s+ee,f); }$/;"	f	struct:in_imap
+sliced_for	sequence.h	/^  void sliced_for(size_t n, size_t block_size, const F& f) {$/;"	f	namespace:pbbs
+sparseAdditiveSet	localAlg/sparseSet.h	/^ sparseAdditiveSet(long size, float _loadFactor, E zero) :$/;"	f	class:sparseAdditiveSet
+sparseAdditiveSet	localAlg/sparseSet.h	/^class sparseAdditiveSet {$/;"	c
+sparseT	compressedVertex.h	/^  sparseT(F &_f, G &_g, uintT vP, uintT oP) : f(_f), g(_g), v(vP), o(oP) { }$/;"	f	struct:decode_compressed::sparseT
+sparseT	compressedVertex.h	/^  struct sparseT {$/;"	s	namespace:decode_compressed
+sparseTCount	compressedVertex.h	/^  sparseTCount(F &_f, uintT vP, size_t& _ct) : f(_f), v(vP), ct(_ct) {}$/;"	f	struct:decode_compressed::sparseTCount
+sparseTCount	compressedVertex.h	/^  struct sparseTCount {$/;"	s	namespace:decode_compressed
+sparseTE	compressedVertex.h	/^  sparseTE(F &_f, G &_g, uintT vP, uintT oP) : f(_f), g(_g), v(vP), o(oP){}$/;"	f	struct:decode_compressed::sparseTE
+sparseTE	compressedVertex.h	/^  struct sparseTE {$/;"	s	namespace:decode_compressed
+sparseTSeq	compressedVertex.h	/^  sparseTSeq(F &_f, G &_g, uintT vP, uintT oP, size_t& _k) : f(_f), g(_g), v(vP), o(oP), k(_k) { }$/;"	f	struct:decode_compressed::sparseTSeq
+sparseTSeq	compressedVertex.h	/^  struct sparseTSeq {$/;"	s	namespace:decode_compressed
+sparse_no_filter	ligra.h	/^const flags sparse_no_filter = 4;$/;"	v
+squaredErrors	CF.C	/^double* squaredErrors;$/;"	v
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const intE &weight, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::denseForwardT
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const intE &weight, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::denseT
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const intE &weight, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseT
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const intE &weight, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseTCount
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const intE &weight, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseTE
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const intE &weight, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseTSeq
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::denseForwardT
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::denseT
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseT
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseTCount
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseTE
+srcTarg	compressedVertex.h	/^    inline bool srcTarg(const uintE &src, const uintE &target, const uintT &edgeNumber) {$/;"	f	struct:decode_compressed::sparseTSeq
+srcTarg	decoder.C	/^  bool srcTarg(uintE src, uintE target, intE weight, uintT edgeNumber) {$/;"	f	struct:printAdjT
+srcTarg	decoder.C	/^  bool srcTarg(uintE src, uintE target, intE weight, uintT edgeNumber) {$/;"	f	struct:printWghT
+srcTarg	decoder.C	/^  bool srcTarg(uintE src, uintE target, uintT edgeNumber) {$/;"	f	struct:printAdjT
+ss	decoder.C	/^  stringstream* ss;$/;"	m	struct:printAdjT	file:
+ss	decoder.C	/^  stringstream* ss;$/;"	m	struct:printWghT	file:
+start	gettime.h	/^  void start () {$/;"	f	struct:timer
+startTime	gettime.h	109;"	d
+step	CF.C	/^  double step, lambda;$/;"	m	struct:CF_Vertex_F	file:
+stop	gettime.h	/^  double stop () {$/;"	f	struct:timer
+stop	gettime.h	/^  double stop (double weight) {$/;"	f	struct:timer
+stopTime	gettime.h	110;"	d
+stringToWords	IO.h	/^words stringToWords(char *Str, long n) {$/;"	f
+sum	utils.h	/^  intT sum(bool *In, intT n) {$/;"	f	namespace:sequence
+sumFlagsSerial	utils.h	/^  intT sumFlagsSerial(bool *Fl, intT n) {$/;"	f	namespace:sequence
+sum_flags_serial	sequence.h	/^  size_t sum_flags_serial(Index_Map I) {$/;"	f	namespace:pbbs
+sweepCut	localAlg/sweep.h	/^  sweepObject sweepCut(graph<vertex>& GA, pair<uintE,fType> *p, long numNonzeros, long start) {  $/;"	f
+sweepObject	localAlg/sweep.h	/^struct sweepObject {$/;"	s
+sweepObject	localAlg/sweep.h	/^sweepObject(double _c, long _s, long _volS, long _vol, long _e) :$/;"	f	struct:sweepObject
+sweep_compare	localAlg/sweep.h	/^struct sweep_compare { $/;"	s
+sweep_compare	localAlg/sweep.h	/^sweep_compare(vertex* _V) : V(_V) {}$/;"	f	struct:sweep_compare
+symmetricVertex	vertex.h	/^struct symmetricVertex {$/;"	s
+symmetricVertex	vertex.h	/^symmetricVertex(uintE* n, uintT d)$/;"	f	struct:symmetricVertex
+t	maybe.h	/^  T t;$/;"	m	struct:Maybe
+t0	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t0	eccentricity/FM-Ecc.C	/^timer t0,t1,t2;$/;"	v
+t0	eccentricity/LogLog-Ecc.C	/^timer t0,t1,t2;$/;"	v
+t0	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t0	eccentricity/Simple-Approx-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t0	eccentricity/kBFS-1Phase-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t0	eccentricity/kBFS-Ecc.C	/^timer t0,t1,t2,t3,t4,t5;$/;"	v
+t0	eccentricity/kBFS-Exact.C	/^timer t0;$/;"	v
+t1	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t1	eccentricity/FM-Ecc.C	/^timer t0,t1,t2;$/;"	v
+t1	eccentricity/LogLog-Ecc.C	/^timer t0,t1,t2;$/;"	v
+t1	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t1	eccentricity/Simple-Approx-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t1	eccentricity/kBFS-1Phase-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t1	eccentricity/kBFS-Ecc.C	/^timer t0,t1,t2,t3,t4,t5;$/;"	v
+t1	localAlg/ACL-Serial-Naive.C	/^timer t1;$/;"	v
+t1	localAlg/ACL-Serial-Opt-Naive.C	/^timer t1;$/;"	v
+t1	localAlg/ACL-Serial-Opt.C	/^timer t1;$/;"	v
+t1	localAlg/ACL-Serial.C	/^timer t1;$/;"	v
+t1	localAlg/ACL-Sync-Local-Opt.C	/^timer t1;$/;"	v
+t1	localAlg/ACL-Sync-Local.C	/^timer t1;$/;"	v
+t1	localAlg/HeatKernel-Parallel.C	/^timer t1;$/;"	v
+t1	localAlg/HeatKernel-Randomized-Parallel.C	/^timer t1;$/;"	v
+t1	localAlg/HeatKernel-Randomized-Serial.C	/^timer t1;$/;"	v
+t1	localAlg/HeatKernel-Serial.C	/^timer t1;$/;"	v
+t1	localAlg/Nibble-Parallel.C	/^timer t1;$/;"	v
+t1	localAlg/Nibble-Serial.C	/^timer t1;$/;"	v
+t10	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t10	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t2	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t2	eccentricity/FM-Ecc.C	/^timer t0,t1,t2;$/;"	v
+t2	eccentricity/LogLog-Ecc.C	/^timer t0,t1,t2;$/;"	v
+t2	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t2	eccentricity/Simple-Approx-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t2	eccentricity/kBFS-1Phase-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t2	eccentricity/kBFS-Ecc.C	/^timer t0,t1,t2,t3,t4,t5;$/;"	v
+t3	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t3	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t3	eccentricity/Simple-Approx-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t3	eccentricity/kBFS-1Phase-Ecc.C	/^timer t0,t1,t2,t3;$/;"	v
+t3	eccentricity/kBFS-Ecc.C	/^timer t0,t1,t2,t3,t4,t5;$/;"	v
+t4	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t4	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t4	eccentricity/kBFS-Ecc.C	/^timer t0,t1,t2,t3,t4,t5;$/;"	v
+t5	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t5	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t5	eccentricity/kBFS-Ecc.C	/^timer t0,t1,t2,t3,t4,t5;$/;"	v
+t6	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t6	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t7	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t7	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t8	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t8	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t9	eccentricity/CLRSTV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+t9	eccentricity/RV.C	/^timer t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10;$/;"	v
+table	bucketing/histogram.h	/^    KV* table;$/;"	m	struct:pbbs::hist_table
+table	bucketing/sequentialHT.h	/^  T* table;$/;"	m	class:sequentialHT
+timeStatement	gettime.h	108;"	d
+timer	gettime.h	/^  timer() {$/;"	f	struct:timer
+timer	gettime.h	/^struct timer {$/;"	s
+toDense	vertexSubset.h	/^  void toDense() {$/;"	f	struct:vertexSubsetData
+toRange	bucketing/sequentialHT.h	/^  inline size_t toRange(size_t h) {return h & mask;}$/;"	f	class:sequentialHT
+toSparse	vertexSubset.h	/^  void toSparse() {$/;"	f	struct:vertexSubsetData
+toSubtract	localAlg/ACL-Sync-Local.C	/^  double alpha, toSubtract;$/;"	m	struct:Local_Update	file:
+to_range	bucketing/bucket.h	/^    inline bucket_id to_range(uintE bkt) const {$/;"	f	struct:buckets
+total	gettime.h	/^  double total() {$/;"	f	struct:timer
+totalTime	gettime.h	/^  double totalTime;$/;"	m	struct:timer
+totalWeight	gettime.h	/^  double totalWeight;$/;"	m	struct:timer
+total_buckets	bucketing/bucket.h	/^    size_t total_buckets;$/;"	m	struct:buckets
+toverjplus1	localAlg/HeatKernel-Parallel.C	/^  double toverjplus1;$/;"	m	struct:HK_F	file:
+trans	transpose.h	/^  void trans(intT rCount, intT cCount) {$/;"	f	struct:blockTrans
+trans	transpose.h	/^  void trans(intT rCount, intT cCount) {$/;"	f	struct:transpose
+transR	transpose.h	/^  void transR(intT rStart, intT rCount, intT rLength,$/;"	f	struct:blockTrans
+transR	transpose.h	/^  void transR(intT rStart, intT rCount, intT rLength,$/;"	f	struct:transpose
+transpose	graph.h	/^  void transpose() {$/;"	f	struct:graph
+transpose	transpose.h	/^  transpose(E *AA, E *BB) : A(AA), B(BB) {}$/;"	f	struct:transpose
+transpose	transpose.h	/^struct transpose {$/;"	s
+transposed	graph.h	/^  bool transposed;$/;"	m	struct:graph
+tripleCmp	encoder.C	/^struct tripleCmp {$/;"	s	file:
+twoAlphaOverOnePlusAlpha	localAlg/ACL-Sync-Local-Opt.C	/^  double twoAlphaOverOnePlusAlpha;$/;"	m	struct:Local_Update	file:
+tzp	gettime.h	/^  struct timezone tzp;$/;"	m	struct:timer	typeref:struct:timer::timezone
+uchar	byte-pd.h	/^typedef unsigned char uchar;$/;"	t
+uchar	byte.h	/^typedef unsigned char uchar;$/;"	t
+uchar	byteRLE-pd.h	/^typedef unsigned char uchar;$/;"	t
+uchar	byteRLE.h	/^typedef unsigned char uchar;$/;"	t
+uchar	nibble-pd.h	/^typedef unsigned char uchar;$/;"	t
+uchar	nibble.h	/^typedef unsigned char uchar;$/;"	t
+uint	utils.h	/^typedef unsigned int uint;$/;"	t
+uintE	parallel.h	/^typedef unsigned int uintE;$/;"	t
+uintE	parallel.h	/^typedef unsigned long uintE;$/;"	t
+uintT	parallel.h	/^typedef unsigned int uintT;$/;"	t
+uintT	parallel.h	/^typedef unsigned long uintT;$/;"	t
+ulong	utils.h	/^typedef unsigned long ulong;$/;"	t
+unpack	bucketing/bucket.h	/^    inline void unpack() {$/;"	f	struct:buckets
+update	BC.C	/^  inline bool update(uintE s, uintE d){ \/\/Update function for backwards phase$/;"	f	struct:BC_Back_F
+update	BC.C	/^  inline bool update(uintE s, uintE d){ \/\/Update function for forward phase$/;"	f	struct:BC_F
+update	BFS-Bitvector.C	/^  inline bool update (uintE s, uintE d) { \/\/Update$/;"	f	struct:BFS_F
+update	BFS.C	/^	inline bool update (uintE s, uintE d) { \/\/Update$/;"	f	struct:BFS_F
+update	BFSCC.C	/^  inline bool update (uintE s, uintE d) { \/\/Update$/;"	f	struct:BFS_F
+update	BellmanFord.C	/^  inline bool update (uintE s, uintE d, intE edgeLen) { \/\/Update ShortestPathLen if found a shorter path$/;"	f	struct:BF_F
+update	CF.C	/^  inline bool update(uintE s, uintE d, intE edgeLen){ \/\/updates latent vector based on neighbors' data$/;"	f	struct:CF_Edge_F
+update	Components.C	/^  inline bool update(uintE s, uintE d){ \/\/Update function writes min ID$/;"	f	struct:CC_F
+update	KCore.C	/^  inline bool update (uintE s, uintE d) { $/;"	f	struct:Update_Deg
+update	MIS.C	/^  inline bool update (uintE s, uintE d) {$/;"	f	struct:MIS_Update
+update	PageRank.C	/^  inline bool update(uintE s, uintE d){ \/\/update function applies PageRank equation$/;"	f	struct:PR_F
+update	PageRankDelta.C	/^  inline bool update(uintE s, uintE d){$/;"	f	struct:PR_F
+update	Radii.C	/^  inline bool update (uintE s, uintE d){ \/\/Update function does a bitwise-or$/;"	f	struct:Radii_F
+update	Triangle.C	/^  inline bool update (uintE s, uintE d) {$/;"	f	struct:countF
+update	bucketing/DeltaStepping.C	/^  inline Maybe<uintE> update(const uintE& s, const uintE& d, const intE& w) {$/;"	f	struct:Visit_F
+update	bucketing/KCoreSerial.C	/^  inline bool update (const uintE& v, const uintE& u) {$/;"	f	struct:decompress_f
+update	bucketing/SetCover.C	/^  inline bool update(const uintE& s, const uintE& d) { return updateAtomic(s, d); }$/;"	f	struct:Visit_Elms
+update	eccentricity/CCBFS.h	/^  inline bool update(const intE &s, const intE& d) {$/;"	f	struct:CCBFS_F
+update	eccentricity/CCBFS.h	/^  inline bool update(const uintE &s, const uintE &d){ $/;"	f	struct:CC_F
+update	eccentricity/CLRSTV.C	/^  inline bool update(const uintE &s, const uintE& d) {$/;"	f	struct:BFS_F
+update	eccentricity/FM-Ecc.C	/^  inline bool update(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+update	eccentricity/LogLog-Ecc.C	/^  inline bool update(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+update	eccentricity/RV.C	/^  inline bool update(const uintE &s, const uintE& d) {$/;"	f	struct:BFS_F
+update	eccentricity/RV.C	/^  inline bool update(const uintE &s, const uintE& d) {$/;"	f	struct:BFS_Pair_F
+update	eccentricity/Simple-Approx-Ecc.C	/^  inline bool update(const uintE &s, const uintE& d) {$/;"	f	struct:BFS_F
+update	eccentricity/TK.C	/^  inline bool update(const uintE &s, const uintE& d) {$/;"	f	struct:BFS_F
+update	eccentricity/kBFS-1Phase-Ecc.C	/^  inline bool update(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+update	eccentricity/kBFS-Ecc.C	/^  inline bool update(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+update	eccentricity/kBFS-Exact.C	/^  inline bool update(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+update	index_map.h	/^  inline void update(size_t i, const E& val) {s[i] = val;}$/;"	f	struct:array_imap
+update	index_map.h	/^  void update(size_t i, const T& val) {f(i+s, val);}$/;"	f	struct:out_imap
+update	index_map.h	/^  void update(size_t i, const T& val) {s[i] = val;}$/;"	f	struct:iter_imap
+update	localAlg/ACL-Sync-Local-Opt.C	/^  inline bool update(uintE s, uintE d){ \/\/update function applies PageRank equation$/;"	f	struct:ACL_F
+update	localAlg/ACL-Sync-Local.C	/^  inline bool update(uintE s, uintE d){ \/\/update function applies PageRank equation$/;"	f	struct:ACL_F
+update	localAlg/HeatKernel-Parallel.C	/^  inline bool update(uintE s, uintE d){$/;"	f	struct:HK_F
+update	localAlg/HeatKernel-Parallel.C	/^  inline bool update(uintE s, uintE d){$/;"	f	struct:HK_Last_F
+update	localAlg/Nibble-Parallel.C	/^  inline bool update(uintE s, uintE d){ \/\/update function applies PageRank equation$/;"	f	struct:Nibble_F
+update	utils.h	/^  inline bool update(const uintE& s, const uintE& d) {$/;"	f	struct:EdgeMap_F
+updateAtomic	BC.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:BC_Back_F
+updateAtomic	BC.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update, basically an add$/;"	f	struct:BC_F
+updateAtomic	BFS-Bitvector.C	/^  inline bool updateAtomic (uintE s, uintE d){ \/\/atomic version of Update$/;"	f	struct:BFS_F
+updateAtomic	BFS.C	/^	inline bool updateAtomic (uintE s, uintE d){ \/\/atomic version of Update$/;"	f	struct:BFS_F
+updateAtomic	BFSCC.C	/^  inline bool updateAtomic (uintE s, uintE d){ \/\/atomic version of Update$/;"	f	struct:BFS_F
+updateAtomic	BellmanFord.C	/^  inline bool updateAtomic (uintE s, uintE d, intE edgeLen){ \/\/atomic Update$/;"	f	struct:BF_F
+updateAtomic	CF.C	/^  inline bool updateAtomic (uintE s, uintE d, intE edgeLen) {$/;"	f	struct:CF_Edge_F
+updateAtomic	Components.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:CC_F
+updateAtomic	KCore.C	/^  inline bool updateAtomic (uintE s, uintE d){$/;"	f	struct:Update_Deg
+updateAtomic	MIS.C	/^  inline bool updateAtomic (uintE s, uintE d) {$/;"	f	struct:MIS_Update
+updateAtomic	PageRank.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:PR_F
+updateAtomic	PageRankDelta.C	/^  inline bool updateAtomic (uintE s, uintE d) {$/;"	f	struct:PR_F
+updateAtomic	Radii.C	/^  inline bool updateAtomic (uintE s, uintE d){ \/\/atomic Update$/;"	f	struct:Radii_F
+updateAtomic	Triangle.C	/^  inline bool updateAtomic (uintE s, uintE d) {$/;"	f	struct:countF
+updateAtomic	bucketing/DeltaStepping.C	/^  inline Maybe<uintE> updateAtomic(const uintE& s, const uintE& d, const intE& w) {$/;"	f	struct:Visit_F
+updateAtomic	bucketing/KCoreSerial.C	/^  inline bool updateAtomic (uintE s, uintE d) {$/;"	f	struct:decompress_f
+updateAtomic	bucketing/SetCover.C	/^  inline bool updateAtomic(const uintE& s, const uintE& d) {$/;"	f	struct:Visit_Elms
+updateAtomic	eccentricity/CCBFS.h	/^  inline bool updateAtomic(const intE &s, const intE &d) {$/;"	f	struct:CCBFS_F
+updateAtomic	eccentricity/CCBFS.h	/^  inline bool updateAtomic(const uintE &s, const uintE &d){ $/;"	f	struct:CC_F
+updateAtomic	eccentricity/CLRSTV.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d) {$/;"	f	struct:BFS_F
+updateAtomic	eccentricity/FM-Ecc.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+updateAtomic	eccentricity/LogLog-Ecc.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+updateAtomic	eccentricity/RV.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d) {$/;"	f	struct:BFS_F
+updateAtomic	eccentricity/RV.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d) {$/;"	f	struct:BFS_Pair_F
+updateAtomic	eccentricity/Simple-Approx-Ecc.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d) {$/;"	f	struct:BFS_F
+updateAtomic	eccentricity/TK.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d) {$/;"	f	struct:BFS_F
+updateAtomic	eccentricity/kBFS-1Phase-Ecc.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+updateAtomic	eccentricity/kBFS-Ecc.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+updateAtomic	eccentricity/kBFS-Exact.C	/^  inline bool updateAtomic(const uintE &s, const uintE &d){$/;"	f	struct:Ecc_F
+updateAtomic	localAlg/ACL-Sync-Local-Opt.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:ACL_F
+updateAtomic	localAlg/ACL-Sync-Local.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:ACL_F
+updateAtomic	localAlg/HeatKernel-Parallel.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:HK_F
+updateAtomic	localAlg/HeatKernel-Parallel.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:HK_Last_F
+updateAtomic	localAlg/Nibble-Parallel.C	/^  inline bool updateAtomic (uintE s, uintE d) { \/\/atomic Update$/;"	f	struct:Nibble_F
+updateAtomic	utils.h	/^  inline bool updateAtomic(const uintE& s, const uintE& d) {$/;"	f	struct:EdgeMap_F
+update_buckets	bucketing/bucket.h	/^    inline size_t update_buckets(F f, size_t k) {$/;"	f	struct:buckets
+update_buckets_seq	bucketing/bucket.h	/^    inline size_t update_buckets_seq(F& f, size_t n) {$/;"	f	struct:buckets
+upper	eccentricity/Simple-Approx-Ecc.C	/^  uintE* upper;$/;"	m	struct:max_upper	file:
+upper	eccentricity/TK.C	/^  uintE* upper;$/;"	m	struct:max_upper	file:
+v	compressedVertex.h	/^    uintT v, o;$/;"	m	struct:decode_compressed::sparseT
+v	compressedVertex.h	/^    uintT v, o;$/;"	m	struct:decode_compressed::sparseTE
+v	compressedVertex.h	/^    uintT v, o;$/;"	m	struct:decode_compressed::sparseTSeq
+v	compressedVertex.h	/^    uintT v;$/;"	m	struct:decode_compressed::sparseTCount
+vert	bucketing/KCoreSerial.C	/^  intT* vert;$/;"	m	struct:decompress_f	file:
+vertexFilter	ligra.h	/^vertexSubset vertexFilter(vertexSubset V, F filter) {$/;"	f
+vertexFilter2	ligra.h	/^vertexSubset vertexFilter2(vertexSubset V, F filter) {$/;"	f
+vertexFilter2	ligra.h	/^vertexSubset vertexFilter2(vertexSubsetData<data> V, F filter) {$/;"	f
+vertexMap	ligra.h	/^void vertexMap(VS& V, F f) {$/;"	f
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData()$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData(long _n, D* _d)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData(long _n, long _m, D* _d)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData(long _n, long _m, S* indices)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData(size_t _n) : n(_n), m(0), d(NULL), s(NULL), isDense(0) { }$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData<pbbs::empty>(long _n, bool* _d)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData<pbbs::empty>(long _n, long _m, S* indices)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData<pbbs::empty>(long _n, long _m, bool* _d)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData<pbbs::empty>(long _n, long _m, tuple<uintE, pbbs::empty>* indices)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData<pbbs::empty>(long _n, uintE v)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^  vertexSubsetData<pbbs::empty>(size_t _n) : n(_n), m(0), d(NULL), s(NULL), isDense(0) {}$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^ vertexSubsetData<pbbs::empty>(long _n, tuple<bool, pbbs::empty>* _d)$/;"	f	struct:vertexSubsetData
+vertexSubsetData	vertexSubset.h	/^struct vertexSubsetData {$/;"	s
+vertexSubsetData	vertexSubset.h	/^struct vertexSubsetData<pbbs::empty> {$/;"	s
+vol	localAlg/sweep.h	/^  long sizeS, volS, vol, edgesCrossing;$/;"	m	struct:sweepObject
+volS	localAlg/sweep.h	/^  long sizeS, volS, vol, edgesCrossing;$/;"	m	struct:sweepObject
+vs	compressedVertex.h	/^    VS vs;$/;"	m	struct:decode_compressed::denseT
+vtx	vertexSubset.h	/^  inline uintE& vtx(const uintE& i) const { return s[i]; }$/;"	f	struct:vertexSubsetData
+vtx	vertexSubset.h	/^  inline uintE& vtx(const uintE& i) const { return std::get<0>(s[i]); }$/;"	f	struct:vertexSubsetData
+vtxAndData	vertexSubset.h	/^  inline tuple<uintE, data> vtxAndData(const uintE& i) const { return s[i]; }$/;"	f	struct:vertexSubsetData
+vtxAndData	vertexSubset.h	/^  inline tuple<uintE, pbbs::empty> vtxAndData(const uintE& i) const { return make_tuple(s[i], pbbs::empty()); }$/;"	f	struct:vertexSubsetData
+vtxData	vertexSubset.h	/^  inline data& vtxData(const uintE& i) const { return std::get<1>(s[i]); }$/;"	f	struct:vertexSubsetData
+vtxData	vertexSubset.h	/^  inline pbbs::empty vtxData(const uintE& i) const { return pbbs::empty(); }$/;"	f	struct:vertexSubsetData
+walk	localAlg/HeatKernel-Randomized-Parallel.C	/^inline uintE walk(uintE x, vertex* V, uintE seed) {$/;"	f
+walk	localAlg/HeatKernel-Randomized-Serial.C	/^inline uintE walk(uintE x, vertex* V, uintE seed) {$/;"	f
+words	IO.h	/^  words() {}$/;"	f	struct:words
+words	IO.h	/^struct words {$/;"	s
+words	IO.h	/^words(char* C, long nn, char** S, long mm)$/;"	f	struct:words
+wrap	maybe.h	/^inline Maybe<tuple<L, R> > wrap(const Maybe<L>& l, const Maybe<R>& r) {$/;"	f
+wrap	maybe.h	/^inline Maybe<tuple<L, R> > wrap(const Maybe<L>& l, const R& r) {$/;"	f
+wrap	maybe.h	/^inline const Maybe<tuple<L, R> > wrap(const L& l, const Maybe<R>& r) {$/;"	f
+wrap	maybe.h	/^inline const Maybe<tuple<uintE, uintE> > wrap(const uintE& l, const uintE& r) {$/;"	f
+writeAdd	utils.h	/^inline void writeAdd(ET *a, ET b) {$/;"	f
+writeAdjGraph	decoder.C	/^void writeAdjGraph(graph<compressedSymmetricVertex> G, ofstream *of, bool weighted) {$/;"	f
+writeBroadwordMax	eccentricity/LogLog-Ecc.C	/^inline bool writeBroadwordMax(long *a, long b) {$/;"	f
+writeMin	utils.h	/^inline bool writeMin(ET *a, ET b) {$/;"	f
+writeOr	BFS-Bitvector.C	/^inline void writeOr(ET *a, ET b) {$/;"	f
+writeOr	Radii.C	/^inline void writeOr(ET *a, ET b) {$/;"	f
+writeOr	eccentricity/FM-Ecc.C	/^inline void writeOr(ET *a, ET b) {$/;"	f
+writeOr	eccentricity/kBFS-1Phase-Ecc.C	/^inline void writeOr(ET *a, ET b) {$/;"	f
+writeOr	eccentricity/kBFS-Ecc.C	/^inline void writeOr(ET *a, ET b) {$/;"	f
+writeOr	eccentricity/kBFS-Exact.C	/^inline void writeOr(ET *a, ET b) {$/;"	f
+write_add	utils.h	/^  inline void write_add(E *a, EV b) {$/;"	f	namespace:pbbs
+write_min	utils.h	/^  inline bool write_min(ET *a, ET b, F less) {$/;"	f	namespace:pbbs
+x	bucketing/SetCover.C	/^const double x = 1.0\/log(1.0 + epsilon);$/;"	v
+x	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r, new_r;$/;"	m	struct:HK_F	file:
+x	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r;$/;"	m	struct:HK_Last_F	file:
+x	localAlg/HeatKernel-Parallel.C	/^  sparseAdditiveSet<float> x, r;$/;"	m	struct:Local_Update	file:
+xLessEqualY	eccentricity/LogLog-Ecc.C	37;"	d	file:
+xLessY	eccentricity/LogLog-Ecc.C	34;"	d	file:
+~EdgeMap	bucketing/edgeMapReduce.h	/^  ~EdgeMap() {$/;"	f	struct:EdgeMap
+~array_imap	index_map.h	/^  ~array_imap() { if (alloc) { free(s);}}$/;"	f	struct:array_imap

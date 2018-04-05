@@ -114,6 +114,9 @@ void Compute(graph<vertex>& GA, commandLine P) {
     frontier_data[i] = 1;
   }}
   long round = 0;
+  // By Johnpzh
+  startTime();
+  // End by Johnpzh
   vertexSubset Frontier(n, frontier_data);
   while (!Frontier.isEmpty()) {
     edgeMap(GA, Frontier, MIS_Update(flags), -1, no_output);
@@ -122,6 +125,15 @@ void Compute(graph<vertex>& GA, commandLine P) {
     Frontier = output;
     round++;
   }
+  // By Johnpzh
+  nextTime("");
+  FILE *fout = fopen("results.txt", "w");
+  for(long i = 0; i < n; i += n/10) {
+	  //fprintf(fout, "dists[%ld]: %ld\n", i, dists[i]);
+	  fprintf(fout, "%d) cost:%ld\n", i, flags[i]);
+  }
+  fclose(fout);
+  // End by Johnpzh
 #ifdef CHECK
   if (checkCorrectness) {
     if(checkMis(GA,flags)) cout << "correct\n";

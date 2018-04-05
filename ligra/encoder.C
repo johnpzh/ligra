@@ -147,7 +147,7 @@ void encodeGraphFromFile(char* fname, bool isSymmetric, char* outFile, bool bina
     _seq<char> S = readStringFromFile(fname);
     words W = stringToWords(S.A, S.n);
     if (W.Strings[0] != (string) "AdjacencyGraph") {
-      cout << "Bad input file" << endl;
+      cout << "encoder.C:150: Bad input file" << endl;
       abort();
     }
 
@@ -155,7 +155,8 @@ void encodeGraphFromFile(char* fname, bool isSymmetric, char* outFile, bool bina
     n = atol(W.Strings[1]);
     m = atol(W.Strings[2]);
     if (len != n + m + 2) {
-      cout << "Bad input file" << endl;
+		printf("len: %ld n: %ld m: %ld\n", len, n, m);//test
+      cout << "encoder.C:159: Bad input file" << endl;
       abort();
     }
     offsets = newA(uintT,n+1);
@@ -373,7 +374,7 @@ void encodeWeightedGraphFromFile
     _seq<char> S = readStringFromFile(fname);
     words W = stringToWords(S.A, S.n);
     if (W.Strings[0] != (string) "WeightedAdjacencyGraph") {
-      cout << "Bad input file" << endl;
+      cout << "encoder.C:377: Bad input file" << endl;
       abort();
     }
 
@@ -381,7 +382,7 @@ void encodeWeightedGraphFromFile
     n = atol(W.Strings[1]);
     m = atol(W.Strings[2]);
     if (len != n + 2*m + 2) {
-      cout << "Bad input file" << endl;
+      cout << "encoder.C:385: Bad input file" << endl;
       abort();
     }
     offsets = newA(uintT,n+1);

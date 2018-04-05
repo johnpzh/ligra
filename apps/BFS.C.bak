@@ -45,54 +45,12 @@ void Compute(graph<vertex>& GA, commandLine P) {
   uintE* Parents = newA(uintE,n);
   parallel_for(long i=0;i<n;i++) Parents[i] = UINT_E_MAX;
   Parents[start] = start;
-
-  ////////////////////////////////////////////////////////////////
-  // By Johnpzh
-  long *dists = newA(long, n);
-  parallel_for(long i=0;i<n;i++) dists[i] = UINT_E_MAX;
-  dists[start] = 0;
-  startTime(); //
-  // End by Johnpzh
-  ////////////////////////////////////////////////////////////////
-
   vertexSubset Frontier(n,start); //creates initial frontier
   while(!Frontier.isEmpty()){ //loop until frontier is empty
     vertexSubset output = edgeMap(GA, Frontier, BFS_F(Parents));    
     Frontier.del();
     Frontier = output; //set new frontier
-
-	////////////////////////////////////////////////////////////////
-	// By Johnpzh
-		if (Frontier.d) {
-			{parallel_for (long i = 0; i < Frontier.n; ++i) {
-				if (Frontier.d[i]) {
-				    uintE s_i = Parents[i];
-				    dists[i] = dists[s_i] + 1;
-				}
-			}}
-		} else if (Frontier.s) {
-			parallel_for (long i = 0; i < Frontier.m; ++i) {
-				uintE v_i = Frontier.s[i];
-				uintE s_i = Parents[v_i];
-				dists[v_i] = dists[s_i] + 1;
-			}
-		} 
-	// End by Johnpzh
-	////////////////////////////////////////////////////////////////
   } 
-
-  // By Johnpzh
-  nextTime(""); //
-  FILE *fout = fopen("results.txt", "w");
-  for(long i = 0; i < n; i ++) {
-	  //fprintf(fout, "dists[%ld]: %ld\n", i, dists[i]);
-	  //fprintf(fout, "%d) cost:%ld\n", i, dists[i] != UINT_E_MAX ? dists[i] : -1);
-	  fprintf(fout, "%d: %ld\n", i, dists[i]);
-  }
-  fclose(fout);
-  free(dists);
-  // End by Johnpzh
-
   Frontier.del();
   free(Parents); 
 }

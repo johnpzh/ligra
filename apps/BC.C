@@ -101,6 +101,9 @@ void Compute(graph<vertex>& GA, commandLine P) {
   bool* Visited = newA(bool,n);
   {parallel_for(long i=0;i<n;i++) Visited[i] = 0;}
   Visited[start] = 1;
+  // By Johnpzh
+  startTime();
+  // End By Johnpzh
   vertexSubset Frontier(n,start);
  
   vector<vertexSubset> Levels;
@@ -144,6 +147,14 @@ void Compute(graph<vertex>& GA, commandLine P) {
   parallel_for(long i=0;i<n;i++) {
     Dependencies[i]=(Dependencies[i]-inverseNumPaths[i])/inverseNumPaths[i];
   }
+  //By Johnpzh
+  nextTime("");
+  FILE *fout = fopen("results.txt", "w");
+  for(long i = 0; i < n; i++) {
+      fprintf(fout, "d[%u]: %f\n", i, Dependencies[i]);
+  }
+  fclose(fout);
+  //End by Johnpzh
   free(inverseNumPaths);
   free(Visited);
   free(Dependencies);

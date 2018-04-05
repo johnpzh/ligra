@@ -67,6 +67,9 @@ void Compute(graph<vertex>& GA, commandLine P) {
   int* Visited = newA(int,n);
   {parallel_for(long i=0;i<n;i++) Visited[i] = 0;}
 
+  // By Johnpzh
+  startTime();
+  // End by Johnpzh
   vertexSubset Frontier(n,start); //initial frontier
 
   long round = 0;
@@ -82,6 +85,15 @@ void Compute(graph<vertex>& GA, commandLine P) {
     Frontier = output;
     round++;
   }
+  // By Johnpzh
+  nextTime("");
+  FILE *fout = fopen("results.txt", "w");
+  for(long i = 0; i < n; i += n/10) {
+	  //fprintf(fout, "dists[%ld]: %ld\n", i, dists[i]);
+	  fprintf(fout, "%d) cost:%ld\n", i, ShortestPathLen[i]);
+  }
+  fclose(fout);
+  // End By Johnpzh
   Frontier.del(); free(Visited);
   free(ShortestPathLen);
 }

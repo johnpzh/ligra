@@ -57,6 +57,9 @@ void Compute(graph<vertex>& GA, commandLine P) {
 
   bool* frontier = newA(bool,n);
   {parallel_for(long i=0;i<n;i++) frontier[i] = 1;} 
+  // By Johnpzh
+  startTime();
+  // End by Johnpzh
   vertexSubset Frontier(n,n,frontier); //initial frontier contains all vertices
 
   while(!Frontier.isEmpty()){ //iterate until IDS converge
@@ -65,5 +68,14 @@ void Compute(graph<vertex>& GA, commandLine P) {
     Frontier.del();
     Frontier = output;
   }
+  // By Johnpzh
+  nextTime("");
+  FILE *fout = fopen("results.txt", "w");
+  for(long i = 0; i < n; i += n/10) {
+	  //fprintf(fout, "dists[%ld]: %ld\n", i, dists[i]);
+	  fprintf(fout, "%d) cost:%ld\n", i, IDs[i]);
+  }
+  fclose(fout);
+  // End by Johnpzh
   Frontier.del(); free(IDs); free(prevIDs);
 }
